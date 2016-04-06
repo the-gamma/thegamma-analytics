@@ -28,6 +28,16 @@ for log in logs.GetDirectoryReference("").ListBlobs() do
   printfn "\n\n%s\n%s" (Seq.last log.Uri.Segments) (Seq.last log.Uri.Segments |> String.map (fun _ -> '-'))
   logs.GetAppendBlobReference(log.Uri.Segments |> Seq.last).DownloadText() |> printfn "%s"
 
+// Download all files to a local folder with logs
+let root = __SOURCE_DIRECTORY__ + "/logs"
+if not (IO.Directory.Exists root) then IO.Directory.CreateDirectory root |> ignore
+for log in logs.GetDirectoryReference("").ListBlobs() do
+  printfn " - %s" (Seq.last log.Uri.Segments) 
+  let file = Seq.last log.Uri.Segments
+  let localFile = root + "/" + file
+  if not (IO.File.Exists localFile) then
+    IO.File.WriteAllText(localFile, logs.GetAppendBlobReference(file).DownloadText())
+
 
 // ------------------------------------------------------------------------------------------------
 // Logs analaysis 
@@ -35,8 +45,15 @@ for log in logs.GetDirectoryReference("").ListBlobs() do
 
 open FSharp.Charting
 
-type Logs = JsonProvider<"c:/temp/logs.json">
-let all = Logs.GetSamples()
+let [<Literal>] sampleLogs = __SOURCE_DIRECTORY__ + "/logs.json"
+type Logs = JsonProvider<sampleLogs>
+
+let json =
+  [ for f in IO.Directory.GetFiles(root) do
+      for l in IO.File.ReadAllLines(f) do 
+        if l <> "testing..." then yield l ] |> String.concat ","
+
+let all = Logs.Parse("[" + json + "]")
 
 // Summary of events
 all 
@@ -44,9 +61,15 @@ all
 |> Seq.mapi (fun i (_, events) -> i, events)
 |> Seq.filter (fun (_, e) -> Seq.length e > 5)
 |> Seq.iter (fun (i, es) ->
-  printfn "---------- %d -----------" i
+  printfn "\n---------- %d -----------" i
   for e in es do 
     printfn "%s %s" e.Category e.Event)
+
+// What are the most common things people do?
+all 
+|> Seq.countBy (fun l -> l.Category + " " + l.Event)
+|> Seq.sortBy (fun (_, n) -> -n)
+|> Seq.iter (fun (e, n) -> printfn "%s %d" (e.PadRight 30) n)
 
 // How long people stay
 all 
