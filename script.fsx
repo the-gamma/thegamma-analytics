@@ -11,13 +11,13 @@ open Microsoft.WindowsAzure.Storage
 
 // Sending sample request to the logging service
 Http.RequestString
-  ( "http://coeffectlogs.azurewebsites.net/log", httpMethod="POST", 
+  ( "http://thegamma-logs.azurewebsites.net/log/olympics/", httpMethod="POST", 
     body=HttpRequestBody.TextRequest "testing..." )
 
 // Read the logs from Azure storage
-let account = CloudStorageAccount.Parse(Connection.CoeffectLogStorage)
+let account = CloudStorageAccount.Parse(Connection.TheGammaLogStorage)
 let client = account.CreateCloudBlobClient()
-let logs = client.GetContainerReference("logs")
+let logs = client.GetContainerReference("olympics")
 
 // List all log files
 for log in logs.GetDirectoryReference("").ListBlobs() do
@@ -36,8 +36,8 @@ for log in logs.GetDirectoryReference("").ListBlobs() do
   let file = Seq.last log.Uri.Segments
   let localFile = root + "/" + file
   if not (IO.File.Exists localFile) then
-    IO.File.WriteAllText(localFile, logs.GetAppendBlobReference(file).DownloadText())
-
+    printfn "   ...downloading..."
+    logs.GetBlobReference(file).DownloadToFile(localFile, IO.FileMode.Create)
 
 // ------------------------------------------------------------------------------------------------
 // Logs analaysis 
@@ -51,49 +51,7 @@ type Logs = JsonProvider<sampleLogs>
 let json =
   [ for f in IO.Directory.GetFiles(root) do
       for l in IO.File.ReadAllLines(f) do 
-        if l <> "testing..." then yield l ] |> String.concat ","
+        if not (String.IsNullOrWhiteSpace l) && l <> "testing..." then yield l ] |> String.concat ","
 
 let all = Logs.Parse("[" + json + "]")
-
-// Summary of events
-all 
-|> Seq.groupBy (fun l -> l.Session)
-|> Seq.mapi (fun i (_, events) -> i, events)
-|> Seq.filter (fun (_, e) -> Seq.length e > 5)
-|> Seq.iter (fun (i, es) ->
-  printfn "\n---------- %d -----------" i
-  for e in es do 
-    printfn "%s %s" e.Category e.Event)
-
-// What are the most common things people do?
-all 
-|> Seq.countBy (fun l -> l.Category + " " + l.Event)
-|> Seq.sortBy (fun (_, n) -> -n)
-|> Seq.iter (fun (e, n) -> printfn "%s %d" (e.PadRight 30) n)
-
-// How long people stay
-all 
-|> Seq.groupBy (fun l -> l.Session)
-|> Seq.map (fun (_, e) -> 
-    let lo = e |> Seq.map (fun v -> v.Time) |> Seq.min
-    let hi = e |> Seq.map (fun v -> v.Time) |> Seq.max
-    (hi - lo).TotalMinutes )
-|> Seq.filter (fun m -> m < 10.0)
-|> Chart.Histogram
-
-// List all entered source code
-all
-|> Seq.choose (fun e -> e.Data.Record)
-|> Seq.choose (fun r -> r.Source)
-|> Seq.distinct
-|> Seq.iter (printfn "----------------------------\n%s\n")
-
-
-// Errors that we reported to users
-all 
-|> Seq.scan (fun (st, _) el -> 
-    if el.Data.Record.IsSome && el.Data.Record.Value.Source.IsSome then
-      (Some el.Data.Record.Value.Source.Value), el
-    else st, el) (None, Seq.head all)
-|> Seq.filter (fun (st, e) -> e.Category = "error")
 

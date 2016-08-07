@@ -1,4 +1,4 @@
-source https://nuget.org/api/v2
-
+framework: >= net40
+source https://www.nuget.org/api/v2
 nuget FsLab
 nuget FSharp.Azure.StorageTypeProvider
