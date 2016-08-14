@@ -55,3 +55,27 @@ let json =
 
 let all = Logs.Parse("[" + json + "]")
 
+all
+|> Seq.filter (fun a -> a.Event.IsNone)
+|> Seq.iter (fun e -> printfn "%O" e.Time.Date)
+
+all
+|> Seq.countBy (fun d -> d.Time.Day)
+|> Chart.Column
+
+all
+|> Seq.countBy (fun d -> d.Category + ", " + (defaultArg d.Event ""))
+|> Seq.filter (fun (e, c) -> c > 200)
+|> Chart.Column
+
+let topUsers =
+  all
+  |> Seq.countBy (fun d -> d.User.ToString())
+  |> Seq.filter (fun (u, c) -> c > 50)
+  |> Seq.map fst |> set
+
+all 
+|> Seq.filter (fun e -> e.Event = Some "loaded" && topUsers.Contains (e.User.ToString()))
+|> Seq.map (fun e -> e.Data.String, e.User)
+|> Seq.distinct
+|> Seq.iter (printfn "%O")
