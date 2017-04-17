@@ -43,7 +43,7 @@ for log in logs.GetDirectoryReference("").ListBlobs() do
 // Logs analaysis 
 // ------------------------------------------------------------------------------------------------
 
-open FSharp.Charting
+open XPlot.GoogleCharts
 
 let [<Literal>] sampleLogs = __SOURCE_DIRECTORY__ + "/logs.json"
 type Logs = JsonProvider<sampleLogs>
@@ -58,6 +58,10 @@ let all = Logs.Parse("[" + json + "]")
 all
 |> Seq.filter (fun a -> a.Event.IsNone)
 |> Seq.iter (fun e -> printfn "%O" e.Time.Date)
+
+all
+|> Seq.countBy (fun a -> defaultArg a.Event "?")
+|> Chart.Column
 
 all
 |> Seq.countBy (fun d -> d.Time.Day)
