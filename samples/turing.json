@@ -1,0 +1,209 @@
+﻿[{
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:23:26.048Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "",
+	"category": "page",
+	"event": "loaded",
+	"data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:23:36.627Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "listing",
+	"category": "dialog",
+	"event": "open",
+	"data": ""
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:23:46.050Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "listing",
+	"category": "source",
+	"event": "update",
+	"data": "\nlet data =\n shared.'by date'.'May 2017'.'COFOG Structure'\n  .'filter data'.'Service is'.[service:Education].then\n  .'drop columns'.'drop Service'.then\n  .'get the data'\n\ntable.create(data).set(emptyText=\"No records match the selected criteria\")\n"
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:23:46.093Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "listing",
+	"category": "dialog",
+	"event": "close",
+	"data": ""
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:23:52.756Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "thegamma-grossDomesticProduct-out",
+	"category": "interactive",
+	"event": "completed",
+	"data": {
+		"guess": [
+			["Economic affairs", 9.959016393442623],
+			["Education", 8.631147540983605],
+			["General public services", 9.959016393442623],
+			["Health", 7.942622950819672],
+			["Social protection", 3.959016393442623]
+		],
+		"values": [
+			["Health", 7.4],
+			["Social protection", 14.1],
+			["Education", 4.5],
+			["General public services", 3.1],
+			["Economic affairs", 2.4]
+		]
+	}
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:23:58.064Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "thegamma-greenGovernment-out",
+	"category": "interactive",
+	"event": "completed",
+	"data": {
+		"guess": [
+			[2011, 13.41],
+			[2012, 14.22],
+			[2013, 14.355],
+			[2014, 14.4],
+			[2015, 14.49]
+		],
+		"values": [
+			[1999, 6.7],
+			[2000, 6.8],
+			[2001, 7.1],
+			[2002, 7.7],
+			[2003, 7.8],
+			[2004, 8.6],
+			[2005, 10.2],
+			[2006, 10.9],
+			[2007, 10.9],
+			[2008, 10.2],
+			[2009, 11.3],
+			[2010, 11.7],
+			[2011, 11.1],
+			[2012, 11],
+			[2013, 11.4],
+			[2014, 11.6],
+			[2015, 11.6]
+		]
+	}
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:01.015Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "thegamma-scienceAndTech-out",
+	"category": "interactive",
+	"event": "completed",
+	"data": {
+		"guess": [
+			[2013, 3362.5],
+			[2014, 3887.5],
+			[2015, 4162.5]
+		],
+		"values": [
+			[2011, 3253],
+			[2012, 3061],
+			[2013, 3838],
+			[2014, 3983],
+			[2015, 3950]
+		]
+	}
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:07.414Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "listing",
+	"category": "source",
+	"event": "select",
+	"data": {
+		"placeholder": "service",
+		"value": "EU transactions"
+	}
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:07.424Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "listing",
+	"category": "source",
+	"event": "update",
+	"data": "\nlet data =\n shared.'by date'.'May 2017'.'COFOG Structure'\n  .'filter data'.'Service is'.[service:'EU transactions'].then\n  .'drop columns'.'drop Service'.then\n  .'get the data'\n\ntable.create(data).set(emptyText=\"No records match the selected criteria\")\n"
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:10.017Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "education",
+	"category": "dialog",
+	"event": "open",
+	"data": ""
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:15.294Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "",
+	"category": "editor",
+	"event": "completions",
+	"data": {
+		"source": "\nlet topThreeSpendings =\n  expenditure.byYear..byService.Education.sortValues(reverse=true).take(3)\ncompost.charts.bar(topThreeSpendings)\n  .setAxisY(label=\"Education sub-services\")\n  .setAxisX(label=\"£ million\")\n  .setTitle(\"Education (2015)\")\n  .setStyle(inlineLabels=true)\n",
+		"position": {
+			"lineNumber": 3,
+			"column": 22
+		}
+	}
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:19.051Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "education",
+	"category": "source",
+	"event": "update",
+	"data": "\nlet topThreeSpendings =\n  expenditure.byYear.'2000'.byService.Education.sortValues(reverse=true).take(3)\ncompost.charts.bar(topThreeSpendings)\n  .setAxisY(label=\"Education sub-services\")\n  .setAxisX(label=\"£ million\")\n  .setTitle(\"Education (2015)\")\n  .setStyle(inlineLabels=true)\n"
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:19.091Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "education",
+	"category": "dialog",
+	"event": "close",
+	"data": ""
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:24.946Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "education",
+	"category": "dialog",
+	"event": "open",
+	"data": ""
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:31.981Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "education",
+	"category": "source",
+	"event": "update",
+	"data": "\nlet topThreeSpendings =\n  expenditure.byYear.'2014'.byService.Education.sortValues(reverse=true).take(3)\ncompost.charts.bar(topThreeSpendings)\n  .setAxisY(label=\"Education sub-services\")\n  .setAxisX(label=\"£ million\")\n  .setTitle(\"Education (2015)\")\n  .setStyle(inlineLabels=true)\n"
+}, {
+	"user": "9f8232a6-f868-410f-8262-e98d5f85df08",
+	"session": "66ab1b89-204c-4375-afb6-b95c8cec6417",
+	"time": "2017-06-15T22:24:32.021Z",
+	"url": "http://localhost:8083/expenditure/",
+	"element": "education",
+	"category": "dialog",
+	"event": "close",
+	"data": ""
+}]
