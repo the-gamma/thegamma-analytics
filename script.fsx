@@ -110,5 +110,6 @@ let turingJson =
 let turing = Turing.Parse("[" + turingJson + "]")
 
 turing
-|> Seq.iter (fun e -> printfn "%O" (e.Category, e.Event, e.Element, e.Url))
+|> Seq.iter (fun e -> printfn "%O" (e.Time.ToString("d") + " " + e.Time.ToString("t"), e.Category, e.Event, e.Element, e.Url))
+
 
