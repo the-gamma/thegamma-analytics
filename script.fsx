@@ -107,9 +107,88 @@ let turingJson =
       for l in IO.File.ReadAllLines(f) do 
         if not (String.IsNullOrWhiteSpace l) && l <> "testing..." then yield l ] |> String.concat ","
 
-let turing = Turing.Parse("[" + turingJson + "]")
+let turing = 
+  Turing.Parse("[" + turingJson + "]")
+  |> Array.filter (fun e -> e.Url.Contains("gamma.turing.ac.uk"))
 
 turing
-|> Seq.iter (fun e -> printfn "%O" (e.Time.ToString("d") + " " + e.Time.ToString("t"), e.Category, e.Event, e.Element, e.Url))
+|> Seq.countBy (fun e -> e.Time.Month, e.Time.Day)
+|> Seq.map (fun ((m,d), n) -> sprintf "%d/%d" d m, n)
+|> Chart.Bar
+
+turing
+|> Seq.countBy (fun e -> e.Category, e.Event)
+|> Seq.sortByDescending snd
+|> Seq.iter (fun ((c,e),n) -> printfn "(%d) %s - %s" n c e)
+
+turing
+|> Seq.filter (fun e -> e.Category = "source" && e.Event = "update")
+|> Seq.map (fun e -> e.Data.String.Value)
+|> Seq.countBy (fun s -> s.Contains "let data", s.Contains "topThreeSpendings", s.Contains "Top4SpendsForSocialProtection")
+
+turing
+|> Seq.filter (fun e -> e.Category = "source" && e.Event = "update")
+|> Seq.map (fun e -> e.Data.String.Value)
+|> Seq.filter (fun s -> not (s.Contains "let data"))
+
+turing
+|> Seq.filter (fun e -> e.Category = "interactive" && e.Event = "completed")
+|> Seq.countBy (fun e -> e.Element)
+
+turing
+|> Seq.filter (fun e -> e.Event = "exception")
+
+let realign actual guesses = 
+  let guesses = dict guesses
+  let mutable last = None
+  [| for k, v in actual ->
+        if guesses.ContainsKey k then last <- Some guesses.[k]; k, guesses.[k]
+        elif last.IsSome then k, last.Value
+        else k, v |]
+
+let lightColors = seq {
+  while true do
+    for c1 in ["ff"; "dd"; "bb"] do
+      for c2 in ["dd"; "ff"; "bb"] do
+        for c3 in ["99"; "bb"; "dd"] do
+          yield "#" + c1 + c2 + c3 }
+
+let shuffle s = 
+  let rnd = System.Random()
+  s |> Seq.map (fun v -> rnd.Next(), v) |> Seq.sortBy fst |> Seq.map snd
+
+let lineGuesses id = 
+  let all = 
+    turing
+    |> Seq.filter (fun e -> e.Category = "interactive" && e.Event = "completed")
+    |> Seq.map (fun e -> e.Element.Value, e.Data.Record) 
+    |> Seq.filter (fun (e, v) -> e = id)
+  let actual = 
+    all |> Seq.map (fun (_, v) -> v.Value.Values |> Array.map (fun g -> int g.Numbers.[0], float g.Numbers.[1])) |> Seq.head
+  let guesses = 
+    all |> Seq.map (fun (_, v) -> v.Value.Guess |> Array.map (fun g -> int g.Numbers.[0], float g.Numbers.[1]) |> realign actual) 
+  let colors = lightColors |> Seq.take (Seq.length guesses)
+  Seq.append guesses [actual] 
+  |> Chart.Line
+  |> Chart.WithOptions(Options(colors=Array.append (Array.ofSeq colors) [| "black" |] ))
+
+let barGuesses id = 
+  let all = 
+    turing
+    |> Seq.filter (fun e -> e.Category = "interactive" && e.Event = "completed")
+    |> Seq.map (fun e -> e.Element.Value, e.Data.Record)
+    |> Seq.filter (fun (e, v) -> e = id)
+  let actual = 
+    all |> Seq.map (fun (_, v) -> v.Value.Values |> Array.map (fun g -> g.JsonValue.AsArray().[0].AsString(), g.JsonValue.AsArray().[1].AsFloat())) |> Seq.head 
+  let guesses = 
+    all |> Seq.map (fun (_, v) -> v.Value.Guess |> Array.map (fun g -> g.JsonValue.AsArray().[0].AsString(), g.JsonValue.AsArray().[1].AsFloat()) |> dict) 
+  let colors = Seq.append ["black"] (lightColors |> Seq.take (Seq.length guesses) |> shuffle)
+  Chart.Bar
+    [ yield actual
+      for g in guesses -> [| for k, _ in actual -> k, g.[k] |] ]
+    |> Chart.WithOptions(Options(colors=Array.ofSeq colors ))
 
 
+lineGuesses "thegamma-scienceAndTech-out"
+lineGuesses "thegamma-greenGovernment-out"
+barGuesses "thegamma-grossDomesticProduct-out"
