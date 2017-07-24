@@ -97,7 +97,21 @@ olympics
 // ------------------------------------------------------------------------------------------------
 
 open XPlot.GoogleCharts
+open System.Windows.Forms
 
+let play strings = Async.StartImmediate <| async {
+  use f = new Form(TopMost=true, Visible=true, Width=1200, Height=800)
+  use t = new Label(Dock=DockStyle.Fill, Font = new Drawing.Font("consolas", 16.f))
+  f.Controls.Add(t)
+  do! Async.Sleep(2000)
+  let mutable i = 0
+  let len = Seq.length strings
+  for s in strings do
+    t.Text <- s
+    f.Text <- sprintf "%d/%d" i len
+    i <- i + 1
+    do! Async.Sleep(250) }
+    
 let [<Literal>] turingSample = __SOURCE_DIRECTORY__ + "/samples/turing.json"
 let turingRoot = __SOURCE_DIRECTORY__ + "/logs/turing"
 type Turing = JsonProvider<turingSample>
@@ -115,6 +129,17 @@ turing
 |> Seq.countBy (fun e -> e.Time.Month, e.Time.Day)
 |> Seq.map (fun ((m,d), n) -> sprintf "%d/%d" d m, n)
 |> Chart.Bar
+
+turing
+|> Seq.filter (fun e -> e.Event="completions")
+|> Seq.countBy (fun e -> e.User)
+|> Seq.sortBy snd
+|> Seq.iter (printfn "%A")
+
+turing
+|> Seq.filter (fun e -> e.Event="completions")
+|> Seq.map (fun e -> e.Data.Record.Value.Source.Value)
+|> play
 
 turing
 |> Seq.countBy (fun e -> e.Category, e.Event)
