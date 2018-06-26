@@ -1,0 +1,1164 @@
+﻿[
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "2fa66b8e-39f4-4004-a60c-d3b7e80e63d5",
+    "time": "2018-06-26T12:48:25.747Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c4e1237e-fb66-42a6-8108-46b36e25b577",
+    "time": "2018-06-26T13:01:41.801Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "1b380d88-7324-45c3-8c6d-bfcbfff791a9",
+    "time": "2018-06-26T13:02:58.338Z",
+    "url": "http://localhost:8898/",
+    "element": "",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "1b380d88-7324-45c3-8c6d-bfcbfff791a9",
+    "time": "2018-06-26T13:02:58.341Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c97a9238-07cd-4df4-9333-2ef974877977",
+    "time": "2018-06-26T13:03:51.289Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "cfae23b1-8f95-4c73-8403-54802478772d",
+    "time": "2018-06-26T13:04:29.518Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b2f754a4-e82e-4e51-848d-9615e7590df4",
+    "time": "2018-06-26T13:05:07.153Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b2f754a4-e82e-4e51-848d-9615e7590df4",
+    "time": "2018-06-26T13:05:10.717Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "556bf50d-3b30-4fe0-a643-b76d425993af",
+    "time": "2018-06-26T13:05:37.162Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "556bf50d-3b30-4fe0-a643-b76d425993af",
+    "time": "2018-06-26T13:05:40.803Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c8518224-ed8d-4fb6-856c-0c6c502c5667",
+    "time": "2018-06-26T13:06:40.579Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c8518224-ed8d-4fb6-856c-0c6c502c5667",
+    "time": "2018-06-26T13:06:47.023Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "1d30937e-50b7-477a-8f60-60cde9c2afb4",
+    "time": "2018-06-26T13:06:47.605Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b4ab0b0b-db98-4adc-b0c8-d40b49d0e9a1",
+    "time": "2018-06-26T13:18:25.821Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b4ab0b0b-db98-4adc-b0c8-d40b49d0e9a1",
+    "time": "2018-06-26T13:18:25.824Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "9a31986b-464a-488e-9aaf-e30a05eb8f91",
+    "time": "2018-06-26T13:18:39.303Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "9a31986b-464a-488e-9aaf-e30a05eb8f91",
+    "time": "2018-06-26T13:18:39.307Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "fb3b6fb0-38b2-412e-9c84-c42d024f47ea",
+    "time": "2018-06-26T13:18:46.672Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "fb3b6fb0-38b2-412e-9c84-c42d024f47ea",
+    "time": "2018-06-26T13:18:46.678Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c4394e33-7132-4036-adba-6a56be2f8078",
+    "time": "2018-06-26T13:18:55.343Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c4394e33-7132-4036-adba-6a56be2f8078",
+    "time": "2018-06-26T13:18:55.348Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "ff54f422-7d71-4266-b989-233ad35fbb98",
+    "time": "2018-06-26T13:19:02.328Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "ff54f422-7d71-4266-b989-233ad35fbb98",
+    "time": "2018-06-26T13:19:02.331Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "0fe8402a-f7f3-4f0a-a8f3-2fe762ea2600",
+    "time": "2018-06-26T13:19:06.127Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "0fe8402a-f7f3-4f0a-a8f3-2fe762ea2600",
+    "time": "2018-06-26T13:19:06.133Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c40e9249-8e8d-4463-aa65-e65794d4c96f",
+    "time": "2018-06-26T13:19:13.130Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c40e9249-8e8d-4463-aa65-e65794d4c96f",
+    "time": "2018-06-26T13:19:13.135Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "e91b82c5-fc23-4386-83de-16e06ab7f2f5",
+    "time": "2018-06-26T13:19:54.660Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": { }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "e91b82c5-fc23-4386-83de-16e06ab7f2f5",
+    "time": "2018-06-26T13:19:54.668Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "126e16e4-9100-4f7d-8338-d1cae41e9ef0",
+    "time": "2018-06-26T13:20:48.991Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "ff",
+      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
+      "studying": "true"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "126e16e4-9100-4f7d-8338-d1cae41e9ef0",
+    "time": "2018-06-26T13:20:48.995Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "126e16e4-9100-4f7d-8338-d1cae41e9ef0",
+    "time": "2018-06-26T13:21:37.024Z",
+    "url": "http://localhost:8898/step3",
+    "element": "thegamma-grossDomesticProduct-out",
+    "category": "interactive",
+    "event": "completed",
+    "data": {
+      "guess": [
+        [ "Economic affairs", 3.9410828025477707 ],
+        [ "Education", 8.718152866242038 ],
+        [ "General public services", 9.506369426751592 ],
+        [ "Health", 10.843949044585987 ],
+        [ "Social protection", 10.246815286624203 ]
+      ],
+      "values": [
+        [ "Health", 7.4 ],
+        [ "Social protection", 14.1 ],
+        [ "General public services", 3.1 ],
+        [ "Education", 4.5 ],
+        [ "Economic affairs", 2.4 ]
+      ]
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
+    "time": "2018-06-26T13:22:28.267Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "ff",
+      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
+      "studying": "true"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
+    "time": "2018-06-26T13:22:28.272Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
+    "time": "2018-06-26T13:22:34.311Z",
+    "url": "http://localhost:8898/step3",
+    "element": "thegamma-grossDomesticProduct-out",
+    "category": "interactive",
+    "event": "completed",
+    "data": {
+      "guess": [
+        [ "Economic affairs", 1.552547770700637 ],
+        [ "Education", 8.025477707006369 ],
+        [ "General public services", 4.705414012738853 ],
+        [ "Health", 8.742038216560509 ],
+        [ "Social protection", 6.520700636942675 ]
+      ],
+      "values": [
+        [ "Health", 7.4 ],
+        [ "Education", 4.5 ],
+        [ "Social protection", 14.1 ],
+        [ "General public services", 3.1 ],
+        [ "Economic affairs", 2.4 ]
+      ]
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
+    "time": "2018-06-26T13:22:36.305Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "5b498eb9-0a98-432a-931d-56a05573dbd1",
+    "time": "2018-06-26T13:29:38.616Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "48dd419e-aac7-42f2-87df-9598f0142ee1",
+    "time": "2018-06-26T13:29:57.690Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "a5aad607-6463-4d2e-b3b0-6dc2091d50c9",
+    "time": "2018-06-26T13:30:06.449Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b7728946-8dac-4d02-8383-f7d9fadd203e",
+    "time": "2018-06-26T13:30:14.500Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "f347baf2-97de-4c7b-bfcb-b3141860d067",
+    "time": "2018-06-26T13:30:39.315Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "d4984cf8-a454-4ea1-ae7c-522aa85edd32",
+    "time": "2018-06-26T13:30:47.127Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "12ee4577-cd72-481f-b7fd-1aeee70519f0",
+    "time": "2018-06-26T13:35:22.809Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "21e87a16-4360-4f58-85d1-43d184d17007",
+    "time": "2018-06-26T13:36:18.414Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "21e87a16-4360-4f58-85d1-43d184d17007",
+    "time": "2018-06-26T13:37:00.624Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "cc757c26-66aa-458f-a11f-b1478cf2a907",
+    "time": "2018-06-26T13:37:01.872Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "59fd9e42-3ddc-473e-9886-f5ea7029e47f",
+    "time": "2018-06-26T13:37:17.210Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "33e4352d-b9ca-4f2f-8cd0-bca1a3423421",
+    "time": "2018-06-26T13:37:30.340Z",
+    "url": "http://localhost:8898/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b9ed4529-4425-46d9-98fb-d8aa30054450",
+    "time": "2018-06-26T13:37:35.066Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b56058ad-7964-4ec8-8333-ccf71e5223b1",
+    "time": "2018-06-26T13:38:03.056Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b56058ad-7964-4ec8-8333-ccf71e5223b1",
+    "time": "2018-06-26T13:38:11.879Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "06ce7616-7ce0-43f8-889f-b66b0311ff16",
+    "time": "2018-06-26T13:38:12.285Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "ffff",
+      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
+      "studying": "true"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "06ce7616-7ce0-43f8-889f-b66b0311ff16",
+    "time": "2018-06-26T13:38:12.285Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b5fced8f-076d-467b-963b-db4b4d9cc421",
+    "time": "2018-06-26T13:38:34.420Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "ffff",
+      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
+      "studying": "true"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b5fced8f-076d-467b-963b-db4b4d9cc421",
+    "time": "2018-06-26T13:38:34.421Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "4d672ec3-2524-4b99-b9d4-a9a8c0a1818d",
+    "time": "2018-06-26T13:41:37.655Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "ffff",
+      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
+      "studying": "true"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "4d672ec3-2524-4b99-b9d4-a9a8c0a1818d",
+    "time": "2018-06-26T13:41:37.655Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "134ade32-19c2-4a9f-89ab-6ab39d60c3cc",
+    "time": "2018-06-26T13:41:46.707Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "134ade32-19c2-4a9f-89ab-6ab39d60c3cc",
+    "time": "2018-06-26T13:42:21.231Z",
+    "url": "http://localhost:8898/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
+    "time": "2018-06-26T13:42:22.424Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "ffff",
+      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
+      "studying": "true"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
+    "time": "2018-06-26T13:42:22.424Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
+    "time": "2018-06-26T13:42:28.268Z",
+    "url": "http://localhost:8898/step3",
+    "element": "thegamma-grossDomesticProduct-out",
+    "category": "interactive",
+    "event": "completed",
+    "data": {
+      "guess": [
+        [ "Economic affairs", 7.681818181818182 ],
+        [ "Education", 9.454545454545453 ],
+        [ "General public services", 5.7272727272727275 ],
+        [ "Health", 8.818181818181818 ],
+        [ "Social protection", 8.5 ]
+      ],
+      "values": [
+        [ "Education", 4.5 ],
+        [ "Health", 7.4 ],
+        [ "Social protection", 14.1 ],
+        [ "Economic affairs", 2.4 ],
+        [ "General public services", 3.1 ]
+      ]
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
+    "time": "2018-06-26T13:42:30.023Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "e846a2ed-14c7-40fa-afac-dfad5d06273c",
+    "time": "2018-06-26T13:42:30.447Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "e846a2ed-14c7-40fa-afac-dfad5d06273c",
+    "time": "2018-06-26T13:42:33.404Z",
+    "url": "http://localhost:8898/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "710386a5-4907-4614-84fe-cc660de878db",
+    "time": "2018-06-26T13:42:34.156Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "01eecf53-14ec-4bc8-a501-6178ee4556de",
+    "time": "2018-06-26T13:49:51.168Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "0f57f28c-3698-4e71-b6ee-b70121a091ae",
+    "time": "2018-06-26T13:50:05.389Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "3c7d01dc-1b75-4d1a-89bd-73ff59b40453",
+    "time": "2018-06-26T13:50:57.466Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "30ce2c40-638b-49a4-b47a-7dd972024a86",
+    "time": "2018-06-26T13:53:24.794Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "20c4504a-ce38-44aa-8f95-979e1ee8a45c",
+    "time": "2018-06-26T13:53:48.206Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "56534f2f-5603-438a-a27b-d608abb92230",
+    "time": "2018-06-26T13:54:15.691Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "6af9ebd1-fae7-406f-be92-6823de3f1925",
+    "time": "2018-06-26T13:55:27.444Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "6af9ebd1-fae7-406f-be92-6823de3f1925",
+    "time": "2018-06-26T13:57:58.199Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "a548a824-6122-4245-8375-dfe4c05b6c5f",
+    "time": "2018-06-26T13:57:59.167Z",
+    "url": "http://localhost:8898/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "missing",
+      "education": "missing",
+      "studying": "false"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "a548a824-6122-4245-8375-dfe4c05b6c5f",
+    "time": "2018-06-26T13:57:59.167Z",
+    "url": "http://localhost:8898/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "1f6a99dd-efa9-423c-9091-32d69be957bc",
+    "time": "2018-06-26T13:58:03.941Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "ae827e73-d525-4175-b3ee-cafa00cecca5",
+    "time": "2018-06-26T13:58:25.883Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "ae827e73-d525-4175-b3ee-cafa00cecca5",
+    "time": "2018-06-26T13:58:34.000Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step5",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "b2af99c7-c88b-4f8c-9fcf-7dfcfcb27fe6",
+    "time": "2018-06-26T14:01:01.520Z",
+    "url": "http://localhost:8898/step6",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "a3d30606-af24-41a4-9177-5deb1fa826a4",
+    "time": "2018-06-26T14:01:11.526Z",
+    "url": "http://localhost:8898/step6",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "0c68d73f-d31f-4128-87a3-204194a16cce",
+    "time": "2018-06-26T14:01:15.409Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "0c68d73f-d31f-4128-87a3-204194a16cce",
+    "time": "2018-06-26T14:01:19.225Z",
+    "url": "http://localhost:8898/step5",
+    "element": "step5",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "63ae3c8e-cffc-44c1-ab6f-2e4694f141a7",
+    "time": "2018-06-26T14:01:19.647Z",
+    "url": "http://localhost:8898/step6",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c31e1801-007a-4247-acfe-603c41553e64",
+    "time": "2018-06-26T14:02:24.194Z",
+    "url": "http://localhost:8898/step6",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "question1": "",
+      "share1": "",
+      "question2": "",
+      "share2": ""
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "c31e1801-007a-4247-acfe-603c41553e64",
+    "time": "2018-06-26T14:02:24.195Z",
+    "url": "http://localhost:8898/step6",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "ca6e5a3d-2cbc-491f-bb76-ee4ecf52e0d8",
+    "time": "2018-06-26T14:02:50.543Z",
+    "url": "http://localhost:8898/step6",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "question1": "123",
+      "share1": "3",
+      "question2": "456",
+      "share2": "2"
+    }
+  },
+  {
+    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
+    "session": "ca6e5a3d-2cbc-491f-bb76-ee4ecf52e0d8",
+    "time": "2018-06-26T14:02:50.550Z",
+    "url": "http://localhost:8898/step6",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "8ba02001-f4e2-40fc-ba64-b5006ea019a1",
+    "time": "2018-06-26T14:11:59.473Z",
+    "url": "https://dataviz-study.azurewebsites.net/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "8ba02001-f4e2-40fc-ba64-b5006ea019a1",
+    "time": "2018-06-26T14:12:03.222Z",
+    "url": "https://dataviz-study.azurewebsites.net/",
+    "element": "step1",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "e0311bef-3735-4ac9-b94a-cdfc3e9fbc2d",
+    "time": "2018-06-26T14:12:03.806Z",
+    "url": "https://dataviz-study.azurewebsites.net/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "e0311bef-3735-4ac9-b94a-cdfc3e9fbc2d",
+    "time": "2018-06-26T14:12:15.159Z",
+    "url": "https://dataviz-study.azurewebsites.net/step2",
+    "element": "step2",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
+    "time": "2018-06-26T14:12:16.008Z",
+    "url": "https://dataviz-study.azurewebsites.net/step3",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "prolificid": "abcd",
+      "education": "Level 2: 5+ O Level (Passes)/CSEs (Grade 1)/GCSEs (Grades A*-C), School Certificate, 1 A Level/ 2-3 AS Levels/VCEs, Intermediate/Higher Diploma, Welsh Baccalaureate Intermediate Diploma, NVQ level 2, Intermediate GNVQ, City and Guilds Craft, BTEC First/General Diploma, RSA Diploma;",
+      "studying": "true"
+    }
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
+    "time": "2018-06-26T14:12:16.010Z",
+    "url": "https://dataviz-study.azurewebsites.net/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
+    "time": "2018-06-26T14:12:22.127Z",
+    "url": "https://dataviz-study.azurewebsites.net/step3",
+    "element": "thegamma-grossDomesticProduct-out",
+    "category": "interactive",
+    "event": "completed",
+    "data": {
+      "guess": [
+        [ "Economic affairs", 2.409090909090909 ],
+        [ "Education", 5.818181818181819 ],
+        [ "General public services", 3.840909090909091 ],
+        [ "Health", 9.181818181818182 ],
+        [ "Social protection", 7.636363636363636 ]
+      ],
+      "values": [
+        [ "Health", 7.4 ],
+        [ "Social protection", 14.1 ],
+        [ "Education", 4.5 ],
+        [ "General public services", 3.1 ],
+        [ "Economic affairs", 2.4 ]
+      ]
+    }
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
+    "time": "2018-06-26T14:12:24.206Z",
+    "url": "https://dataviz-study.azurewebsites.net/step3",
+    "element": "step3",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "8b1a921a-dfea-4e63-8a24-b66ddc721a03",
+    "time": "2018-06-26T14:12:24.711Z",
+    "url": "https://dataviz-study.azurewebsites.net/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "8b1a921a-dfea-4e63-8a24-b66ddc721a03",
+    "time": "2018-06-26T14:12:27.232Z",
+    "url": "https://dataviz-study.azurewebsites.net/step4",
+    "element": "step4",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "8e44a1b5-9ce7-4421-a6d5-174c8e8cb1dd",
+    "time": "2018-06-26T14:12:27.763Z",
+    "url": "https://dataviz-study.azurewebsites.net/step5",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "8e44a1b5-9ce7-4421-a6d5-174c8e8cb1dd",
+    "time": "2018-06-26T14:12:39.031Z",
+    "url": "https://dataviz-study.azurewebsites.net/step5",
+    "element": "step5",
+    "category": "page",
+    "event": "next",
+    "data": ""
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "c996bbfd-d848-49ee-9cc4-33b0e9761417",
+    "time": "2018-06-26T14:12:39.505Z",
+    "url": "https://dataviz-study.azurewebsites.net/step6",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "question1": "999",
+      "share1": "5",
+      "question2": "666",
+      "share2": "3"
+    }
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "c996bbfd-d848-49ee-9cc4-33b0e9761417",
+    "time": "2018-06-26T14:12:39.506Z",
+    "url": "https://dataviz-study.azurewebsites.net/step6",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "afe7860f-9bb3-4433-a8d8-9916ee6cbeb0",
+    "time": "2018-06-26T14:12:56.963Z",
+    "url": "https://dataviz-study.azurewebsites.net/step6",
+    "element": "",
+    "category": "user",
+    "event": "info",
+    "data": {
+      "question1": "999",
+      "share1": "5",
+      "question2": "666",
+      "share2": "3"
+    }
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "afe7860f-9bb3-4433-a8d8-9916ee6cbeb0",
+    "time": "2018-06-26T14:12:56.963Z",
+    "url": "https://dataviz-study.azurewebsites.net/step6",
+    "element": "step5",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  },
+  {
+    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
+    "session": "37f8c9e9-c2ad-4c4e-8a5c-a2edee5e39a5",
+    "time": "2018-06-26T14:12:58.875Z",
+    "url": "https://dataviz-study.azurewebsites.net/",
+    "element": "step1",
+    "category": "page",
+    "event": "loaded",
+    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+  }
+]

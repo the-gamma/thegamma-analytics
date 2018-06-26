@@ -45,6 +45,7 @@ let downloadAll key =
 
 downloadAll "olympics"
 downloadAll "turing"
+downloadAll "datavizstudy"
 
 // ------------------------------------------------------------------------------------------------
 // Logs analaysis for Olympics
@@ -217,3 +218,32 @@ let barGuesses id =
 lineGuesses "thegamma-scienceAndTech-out"
 lineGuesses "thegamma-greenGovernment-out"
 barGuesses "thegamma-grossDomesticProduct-out"
+
+
+// ------------------------------------------------------------------------------------------------
+// Logs analaysis for Dataviz study
+// ------------------------------------------------------------------------------------------------
+
+let [<Literal>] datavizSample = __SOURCE_DIRECTORY__ + "/samples/dataviz.json"
+let datavizRoot = __SOURCE_DIRECTORY__ + "/logs/datavizstudy"
+type Dataviz = JsonProvider<datavizSample>
+
+let datavizJson =
+  [ for f in IO.Directory.GetFiles(datavizRoot) do
+      for l in IO.File.ReadAllLines(f) do 
+        if not (String.IsNullOrWhiteSpace l) && l <> "testing..." then yield l ] |> String.concat ","
+
+let dataviz = 
+  Dataviz.Parse("[" + datavizJson + "]")
+  |> Array.filter (fun e -> e.Url.Contains("dataviz-study.azurewebsites.net"))
+
+dataviz
+|> Seq.countBy (fun u -> u.User)
+
+let events = 
+  dataviz 
+  |> Seq.filter (fun e -> e.User = Guid.Parse("871103a2-a5c4-49a0-9ec6-762c04e32157"))
+  |> Seq.sortBy (fun e -> e.Time) 
+  
+for e in events do 
+  printfn "[%s] %s (%s) - %A" e.Category e.Event (defaultArg e.Element "") e.Data
