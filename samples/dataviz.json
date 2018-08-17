@@ -1,1164 +1,231 @@
-﻿[
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "2fa66b8e-39f4-4004-a60c-d3b7e80e63d5",
-    "time": "2018-06-26T12:48:25.747Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c4e1237e-fb66-42a6-8108-46b36e25b577",
-    "time": "2018-06-26T13:01:41.801Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "1b380d88-7324-45c3-8c6d-bfcbfff791a9",
-    "time": "2018-06-26T13:02:58.338Z",
-    "url": "http://localhost:8898/",
-    "element": "",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "1b380d88-7324-45c3-8c6d-bfcbfff791a9",
-    "time": "2018-06-26T13:02:58.341Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c97a9238-07cd-4df4-9333-2ef974877977",
-    "time": "2018-06-26T13:03:51.289Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "cfae23b1-8f95-4c73-8403-54802478772d",
-    "time": "2018-06-26T13:04:29.518Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b2f754a4-e82e-4e51-848d-9615e7590df4",
-    "time": "2018-06-26T13:05:07.153Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b2f754a4-e82e-4e51-848d-9615e7590df4",
-    "time": "2018-06-26T13:05:10.717Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "556bf50d-3b30-4fe0-a643-b76d425993af",
-    "time": "2018-06-26T13:05:37.162Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "556bf50d-3b30-4fe0-a643-b76d425993af",
-    "time": "2018-06-26T13:05:40.803Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c8518224-ed8d-4fb6-856c-0c6c502c5667",
-    "time": "2018-06-26T13:06:40.579Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c8518224-ed8d-4fb6-856c-0c6c502c5667",
-    "time": "2018-06-26T13:06:47.023Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "1d30937e-50b7-477a-8f60-60cde9c2afb4",
-    "time": "2018-06-26T13:06:47.605Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b4ab0b0b-db98-4adc-b0c8-d40b49d0e9a1",
-    "time": "2018-06-26T13:18:25.821Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b4ab0b0b-db98-4adc-b0c8-d40b49d0e9a1",
-    "time": "2018-06-26T13:18:25.824Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "9a31986b-464a-488e-9aaf-e30a05eb8f91",
-    "time": "2018-06-26T13:18:39.303Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "9a31986b-464a-488e-9aaf-e30a05eb8f91",
-    "time": "2018-06-26T13:18:39.307Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "fb3b6fb0-38b2-412e-9c84-c42d024f47ea",
-    "time": "2018-06-26T13:18:46.672Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "fb3b6fb0-38b2-412e-9c84-c42d024f47ea",
-    "time": "2018-06-26T13:18:46.678Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c4394e33-7132-4036-adba-6a56be2f8078",
-    "time": "2018-06-26T13:18:55.343Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c4394e33-7132-4036-adba-6a56be2f8078",
-    "time": "2018-06-26T13:18:55.348Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "ff54f422-7d71-4266-b989-233ad35fbb98",
-    "time": "2018-06-26T13:19:02.328Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "ff54f422-7d71-4266-b989-233ad35fbb98",
-    "time": "2018-06-26T13:19:02.331Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "0fe8402a-f7f3-4f0a-a8f3-2fe762ea2600",
-    "time": "2018-06-26T13:19:06.127Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "0fe8402a-f7f3-4f0a-a8f3-2fe762ea2600",
-    "time": "2018-06-26T13:19:06.133Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c40e9249-8e8d-4463-aa65-e65794d4c96f",
-    "time": "2018-06-26T13:19:13.130Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c40e9249-8e8d-4463-aa65-e65794d4c96f",
-    "time": "2018-06-26T13:19:13.135Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "e91b82c5-fc23-4386-83de-16e06ab7f2f5",
-    "time": "2018-06-26T13:19:54.660Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": { }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "e91b82c5-fc23-4386-83de-16e06ab7f2f5",
-    "time": "2018-06-26T13:19:54.668Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "126e16e4-9100-4f7d-8338-d1cae41e9ef0",
-    "time": "2018-06-26T13:20:48.991Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "ff",
-      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
-      "studying": "true"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "126e16e4-9100-4f7d-8338-d1cae41e9ef0",
-    "time": "2018-06-26T13:20:48.995Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "126e16e4-9100-4f7d-8338-d1cae41e9ef0",
-    "time": "2018-06-26T13:21:37.024Z",
-    "url": "http://localhost:8898/step3",
-    "element": "thegamma-grossDomesticProduct-out",
-    "category": "interactive",
-    "event": "completed",
-    "data": {
-      "guess": [
-        [ "Economic affairs", 3.9410828025477707 ],
-        [ "Education", 8.718152866242038 ],
-        [ "General public services", 9.506369426751592 ],
-        [ "Health", 10.843949044585987 ],
-        [ "Social protection", 10.246815286624203 ]
-      ],
-      "values": [
-        [ "Health", 7.4 ],
-        [ "Social protection", 14.1 ],
-        [ "General public services", 3.1 ],
-        [ "Education", 4.5 ],
-        [ "Economic affairs", 2.4 ]
-      ]
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
-    "time": "2018-06-26T13:22:28.267Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "ff",
-      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
-      "studying": "true"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
-    "time": "2018-06-26T13:22:28.272Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
-    "time": "2018-06-26T13:22:34.311Z",
-    "url": "http://localhost:8898/step3",
-    "element": "thegamma-grossDomesticProduct-out",
-    "category": "interactive",
-    "event": "completed",
-    "data": {
-      "guess": [
-        [ "Economic affairs", 1.552547770700637 ],
-        [ "Education", 8.025477707006369 ],
-        [ "General public services", 4.705414012738853 ],
-        [ "Health", 8.742038216560509 ],
-        [ "Social protection", 6.520700636942675 ]
-      ],
-      "values": [
-        [ "Health", 7.4 ],
-        [ "Education", 4.5 ],
-        [ "Social protection", 14.1 ],
-        [ "General public services", 3.1 ],
-        [ "Economic affairs", 2.4 ]
-      ]
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "95cef1d3-4590-4e9f-b210-ebf69ae2b00b",
-    "time": "2018-06-26T13:22:36.305Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "5b498eb9-0a98-432a-931d-56a05573dbd1",
-    "time": "2018-06-26T13:29:38.616Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "48dd419e-aac7-42f2-87df-9598f0142ee1",
-    "time": "2018-06-26T13:29:57.690Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "a5aad607-6463-4d2e-b3b0-6dc2091d50c9",
-    "time": "2018-06-26T13:30:06.449Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b7728946-8dac-4d02-8383-f7d9fadd203e",
-    "time": "2018-06-26T13:30:14.500Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "f347baf2-97de-4c7b-bfcb-b3141860d067",
-    "time": "2018-06-26T13:30:39.315Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "d4984cf8-a454-4ea1-ae7c-522aa85edd32",
-    "time": "2018-06-26T13:30:47.127Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "12ee4577-cd72-481f-b7fd-1aeee70519f0",
-    "time": "2018-06-26T13:35:22.809Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "21e87a16-4360-4f58-85d1-43d184d17007",
-    "time": "2018-06-26T13:36:18.414Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "21e87a16-4360-4f58-85d1-43d184d17007",
-    "time": "2018-06-26T13:37:00.624Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "cc757c26-66aa-458f-a11f-b1478cf2a907",
-    "time": "2018-06-26T13:37:01.872Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "59fd9e42-3ddc-473e-9886-f5ea7029e47f",
-    "time": "2018-06-26T13:37:17.210Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "33e4352d-b9ca-4f2f-8cd0-bca1a3423421",
-    "time": "2018-06-26T13:37:30.340Z",
-    "url": "http://localhost:8898/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b9ed4529-4425-46d9-98fb-d8aa30054450",
-    "time": "2018-06-26T13:37:35.066Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b56058ad-7964-4ec8-8333-ccf71e5223b1",
-    "time": "2018-06-26T13:38:03.056Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b56058ad-7964-4ec8-8333-ccf71e5223b1",
-    "time": "2018-06-26T13:38:11.879Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "06ce7616-7ce0-43f8-889f-b66b0311ff16",
-    "time": "2018-06-26T13:38:12.285Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "ffff",
-      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
-      "studying": "true"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "06ce7616-7ce0-43f8-889f-b66b0311ff16",
-    "time": "2018-06-26T13:38:12.285Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b5fced8f-076d-467b-963b-db4b4d9cc421",
-    "time": "2018-06-26T13:38:34.420Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "ffff",
-      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
-      "studying": "true"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b5fced8f-076d-467b-963b-db4b4d9cc421",
-    "time": "2018-06-26T13:38:34.421Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "4d672ec3-2524-4b99-b9d4-a9a8c0a1818d",
-    "time": "2018-06-26T13:41:37.655Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "ffff",
-      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
-      "studying": "true"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "4d672ec3-2524-4b99-b9d4-a9a8c0a1818d",
-    "time": "2018-06-26T13:41:37.655Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "134ade32-19c2-4a9f-89ab-6ab39d60c3cc",
-    "time": "2018-06-26T13:41:46.707Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "134ade32-19c2-4a9f-89ab-6ab39d60c3cc",
-    "time": "2018-06-26T13:42:21.231Z",
-    "url": "http://localhost:8898/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
-    "time": "2018-06-26T13:42:22.424Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "ffff",
-      "education": "Level 1: 1-4 O Levels/CSE/GCSEs (any grades), Entry Level, Foundation Diploma, NVQ Level 1, Foundation GNVQ, Basic/Essential Skills;",
-      "studying": "true"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
-    "time": "2018-06-26T13:42:22.424Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
-    "time": "2018-06-26T13:42:28.268Z",
-    "url": "http://localhost:8898/step3",
-    "element": "thegamma-grossDomesticProduct-out",
-    "category": "interactive",
-    "event": "completed",
-    "data": {
-      "guess": [
-        [ "Economic affairs", 7.681818181818182 ],
-        [ "Education", 9.454545454545453 ],
-        [ "General public services", 5.7272727272727275 ],
-        [ "Health", 8.818181818181818 ],
-        [ "Social protection", 8.5 ]
-      ],
-      "values": [
-        [ "Education", 4.5 ],
-        [ "Health", 7.4 ],
-        [ "Social protection", 14.1 ],
-        [ "Economic affairs", 2.4 ],
-        [ "General public services", 3.1 ]
-      ]
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "47c6aaf3-e1c4-46be-a576-b284ced7b124",
-    "time": "2018-06-26T13:42:30.023Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "e846a2ed-14c7-40fa-afac-dfad5d06273c",
-    "time": "2018-06-26T13:42:30.447Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "e846a2ed-14c7-40fa-afac-dfad5d06273c",
-    "time": "2018-06-26T13:42:33.404Z",
-    "url": "http://localhost:8898/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "710386a5-4907-4614-84fe-cc660de878db",
-    "time": "2018-06-26T13:42:34.156Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "01eecf53-14ec-4bc8-a501-6178ee4556de",
-    "time": "2018-06-26T13:49:51.168Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "0f57f28c-3698-4e71-b6ee-b70121a091ae",
-    "time": "2018-06-26T13:50:05.389Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "3c7d01dc-1b75-4d1a-89bd-73ff59b40453",
-    "time": "2018-06-26T13:50:57.466Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "30ce2c40-638b-49a4-b47a-7dd972024a86",
-    "time": "2018-06-26T13:53:24.794Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "20c4504a-ce38-44aa-8f95-979e1ee8a45c",
-    "time": "2018-06-26T13:53:48.206Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "56534f2f-5603-438a-a27b-d608abb92230",
-    "time": "2018-06-26T13:54:15.691Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "6af9ebd1-fae7-406f-be92-6823de3f1925",
-    "time": "2018-06-26T13:55:27.444Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "6af9ebd1-fae7-406f-be92-6823de3f1925",
-    "time": "2018-06-26T13:57:58.199Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "a548a824-6122-4245-8375-dfe4c05b6c5f",
-    "time": "2018-06-26T13:57:59.167Z",
-    "url": "http://localhost:8898/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "missing",
-      "education": "missing",
-      "studying": "false"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "a548a824-6122-4245-8375-dfe4c05b6c5f",
-    "time": "2018-06-26T13:57:59.167Z",
-    "url": "http://localhost:8898/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "1f6a99dd-efa9-423c-9091-32d69be957bc",
-    "time": "2018-06-26T13:58:03.941Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "ae827e73-d525-4175-b3ee-cafa00cecca5",
-    "time": "2018-06-26T13:58:25.883Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "ae827e73-d525-4175-b3ee-cafa00cecca5",
-    "time": "2018-06-26T13:58:34.000Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step5",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "b2af99c7-c88b-4f8c-9fcf-7dfcfcb27fe6",
-    "time": "2018-06-26T14:01:01.520Z",
-    "url": "http://localhost:8898/step6",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "a3d30606-af24-41a4-9177-5deb1fa826a4",
-    "time": "2018-06-26T14:01:11.526Z",
-    "url": "http://localhost:8898/step6",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "0c68d73f-d31f-4128-87a3-204194a16cce",
-    "time": "2018-06-26T14:01:15.409Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "0c68d73f-d31f-4128-87a3-204194a16cce",
-    "time": "2018-06-26T14:01:19.225Z",
-    "url": "http://localhost:8898/step5",
-    "element": "step5",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "63ae3c8e-cffc-44c1-ab6f-2e4694f141a7",
-    "time": "2018-06-26T14:01:19.647Z",
-    "url": "http://localhost:8898/step6",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c31e1801-007a-4247-acfe-603c41553e64",
-    "time": "2018-06-26T14:02:24.194Z",
-    "url": "http://localhost:8898/step6",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "question1": "",
-      "share1": "",
-      "question2": "",
-      "share2": ""
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "c31e1801-007a-4247-acfe-603c41553e64",
-    "time": "2018-06-26T14:02:24.195Z",
-    "url": "http://localhost:8898/step6",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "ca6e5a3d-2cbc-491f-bb76-ee4ecf52e0d8",
-    "time": "2018-06-26T14:02:50.543Z",
-    "url": "http://localhost:8898/step6",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "question1": "123",
-      "share1": "3",
-      "question2": "456",
-      "share2": "2"
-    }
-  },
-  {
-    "user": "dfba9c66-bb27-4e7f-881a-8f00d9615ca8",
-    "session": "ca6e5a3d-2cbc-491f-bb76-ee4ecf52e0d8",
-    "time": "2018-06-26T14:02:50.550Z",
-    "url": "http://localhost:8898/step6",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "8ba02001-f4e2-40fc-ba64-b5006ea019a1",
-    "time": "2018-06-26T14:11:59.473Z",
-    "url": "https://dataviz-study.azurewebsites.net/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "8ba02001-f4e2-40fc-ba64-b5006ea019a1",
-    "time": "2018-06-26T14:12:03.222Z",
-    "url": "https://dataviz-study.azurewebsites.net/",
-    "element": "step1",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "e0311bef-3735-4ac9-b94a-cdfc3e9fbc2d",
-    "time": "2018-06-26T14:12:03.806Z",
-    "url": "https://dataviz-study.azurewebsites.net/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "e0311bef-3735-4ac9-b94a-cdfc3e9fbc2d",
-    "time": "2018-06-26T14:12:15.159Z",
-    "url": "https://dataviz-study.azurewebsites.net/step2",
-    "element": "step2",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
-    "time": "2018-06-26T14:12:16.008Z",
-    "url": "https://dataviz-study.azurewebsites.net/step3",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "prolificid": "abcd",
-      "education": "Level 2: 5+ O Level (Passes)/CSEs (Grade 1)/GCSEs (Grades A*-C), School Certificate, 1 A Level/ 2-3 AS Levels/VCEs, Intermediate/Higher Diploma, Welsh Baccalaureate Intermediate Diploma, NVQ level 2, Intermediate GNVQ, City and Guilds Craft, BTEC First/General Diploma, RSA Diploma;",
-      "studying": "true"
-    }
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
-    "time": "2018-06-26T14:12:16.010Z",
-    "url": "https://dataviz-study.azurewebsites.net/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
-    "time": "2018-06-26T14:12:22.127Z",
-    "url": "https://dataviz-study.azurewebsites.net/step3",
-    "element": "thegamma-grossDomesticProduct-out",
-    "category": "interactive",
-    "event": "completed",
-    "data": {
-      "guess": [
-        [ "Economic affairs", 2.409090909090909 ],
-        [ "Education", 5.818181818181819 ],
-        [ "General public services", 3.840909090909091 ],
-        [ "Health", 9.181818181818182 ],
-        [ "Social protection", 7.636363636363636 ]
-      ],
-      "values": [
-        [ "Health", 7.4 ],
-        [ "Social protection", 14.1 ],
-        [ "Education", 4.5 ],
-        [ "General public services", 3.1 ],
-        [ "Economic affairs", 2.4 ]
-      ]
-    }
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "54516caf-7eca-48b5-856a-5a5e927e687f",
-    "time": "2018-06-26T14:12:24.206Z",
-    "url": "https://dataviz-study.azurewebsites.net/step3",
-    "element": "step3",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "8b1a921a-dfea-4e63-8a24-b66ddc721a03",
-    "time": "2018-06-26T14:12:24.711Z",
-    "url": "https://dataviz-study.azurewebsites.net/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "8b1a921a-dfea-4e63-8a24-b66ddc721a03",
-    "time": "2018-06-26T14:12:27.232Z",
-    "url": "https://dataviz-study.azurewebsites.net/step4",
-    "element": "step4",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "8e44a1b5-9ce7-4421-a6d5-174c8e8cb1dd",
-    "time": "2018-06-26T14:12:27.763Z",
-    "url": "https://dataviz-study.azurewebsites.net/step5",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "8e44a1b5-9ce7-4421-a6d5-174c8e8cb1dd",
-    "time": "2018-06-26T14:12:39.031Z",
-    "url": "https://dataviz-study.azurewebsites.net/step5",
-    "element": "step5",
-    "category": "page",
-    "event": "next",
-    "data": ""
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "c996bbfd-d848-49ee-9cc4-33b0e9761417",
-    "time": "2018-06-26T14:12:39.505Z",
-    "url": "https://dataviz-study.azurewebsites.net/step6",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "question1": "999",
-      "share1": "5",
-      "question2": "666",
-      "share2": "3"
-    }
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "c996bbfd-d848-49ee-9cc4-33b0e9761417",
-    "time": "2018-06-26T14:12:39.506Z",
-    "url": "https://dataviz-study.azurewebsites.net/step6",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "afe7860f-9bb3-4433-a8d8-9916ee6cbeb0",
-    "time": "2018-06-26T14:12:56.963Z",
-    "url": "https://dataviz-study.azurewebsites.net/step6",
-    "element": "",
-    "category": "user",
-    "event": "info",
-    "data": {
-      "question1": "999",
-      "share1": "5",
-      "question2": "666",
-      "share2": "3"
-    }
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "afe7860f-9bb3-4433-a8d8-9916ee6cbeb0",
-    "time": "2018-06-26T14:12:56.963Z",
-    "url": "https://dataviz-study.azurewebsites.net/step6",
-    "element": "step5",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  },
-  {
-    "user": "f1462883-fee2-46c3-8c9b-3b1326bcb9d1",
-    "session": "37f8c9e9-c2ad-4c4e-8a5c-a2edee5e39a5",
-    "time": "2018-06-26T14:12:58.875Z",
-    "url": "https://dataviz-study.azurewebsites.net/",
-    "element": "step1",
-    "category": "page",
-    "event": "loaded",
-    "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
-  }
+[
+{"user":"ddfa26d7-d016-41b7-91ed-3f9b265b9eee","session":"820844c1-4698-4ee2-9119-1038e06028c8","time":"2018-08-17T16:17:53.435Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"dd82e551-0dba-4b81-9b04-81ef23b4a7d5","session":"4a4bbe96-211f-44c4-b458-182428f6bcf7","time":"2018-08-17T16:17:16.231Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"dd82e551-0dba-4b81-9b04-81ef23b4a7d5","session":"402726a6-39db-446e-bb67-b297b00a0429","time":"2018-08-17T16:17:17.385Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a53bn","question2":"machines","question3":"instruments","question4":"a41","question5":"uncle","share1":"1","share2":"2"}}
+,{"user":"dd82e551-0dba-4b81-9b04-81ef23b4a7d5","session":"402726a6-39db-446e-bb67-b297b00a0429","time":"2018-08-17T16:17:17.388Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36"}
+,{"user":"edaa4e7b-2e48-40ea-b2ad-961df3cf84b5","session":"9a666bdc-5cf3-49bc-a4bc-3f52e53a22a3","time":"2018-08-17T16:17:32.542Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"edaa4e7b-2e48-40ea-b2ad-961df3cf84b5","session":"7302ccd0-d5bf-4b17-8596-e10caf7e3e15","time":"2018-08-17T16:17:34.523Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"0f6b285d-664d-42cc-a9cc-48c6b74a8be1","session":"b88e7c9f-0c9c-4a15-96e5-c5d4a0688694","time":"2018-08-17T16:17:28.628Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"trade","category":"dialog","event":"open","data":""}
+,{"user":"0f6b285d-664d-42cc-a9cc-48c6b74a8be1","session":"b88e7c9f-0c9c-4a15-96e5-c5d4a0688694","time":"2018-08-17T16:17:32.970Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"trade","category":"dialog","event":"close","data":""}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"b75f6456-5df4-4edb-b284-7a9852bb5082","time":"2018-08-17T16:18:22.319Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-chtous-out","category":"interactive","event":"completed","data":{"guess":[["Machines",51.056338028169016],["Metals",84.50704225352112],["Miscellaneous",149.64788732394365],["Plastics and Rubbers",106.69014084507042],["Textiles",98.59154929577464]],"values":[["Machines",213.64],["Miscellaneous",52.32],["Textiles",40.112],["Metals",21.8],["Plastics and Rubbers",18.748]]}}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"b75f6456-5df4-4edb-b284-7a9852bb5082","time":"2018-08-17T16:19:18.220Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-ustoch-out","category":"interactive","event":"completed","data":{"guess":[["Chemical Products",20.746478873239436],["Instruments",24.929577464788732],["Machines",24.971830985915492],["Transportation",25.056338028169016],["Vegetable Products",29.32394366197183]],"values":[["Transportation",25.62],["Vegetable Products",17.08],["Machines",25.62],["Instruments",11.224],["Chemical Products",10.858]]}}
+,{"user":"add64b6f-2589-4a1b-8ca0-92a80e721be8","session":"5c41698d-f39b-4579-9869-10a4d7d2145b","time":"2018-08-17T16:19:20.090Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"add64b6f-2589-4a1b-8ca0-92a80e721be8","session":"7a5665b4-5734-4784-b058-f88b99d3c5f2","time":"2018-08-17T16:19:23.073Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a314","question2":"machines","question3":"chemical","question4":"a45","question5":"incredibles","share1":"8","share2":"3"}}
+,{"user":"add64b6f-2589-4a1b-8ca0-92a80e721be8","session":"7a5665b4-5734-4784-b058-f88b99d3c5f2","time":"2018-08-17T16:19:23.086Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"b75f6456-5df4-4edb-b284-7a9852bb5082","time":"2018-08-17T16:19:25.340Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"604f6eef-cd64-4162-9512-06138ba23153","time":"2018-08-17T16:19:27.340Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"0f6b285d-664d-42cc-a9cc-48c6b74a8be1","session":"b88e7c9f-0c9c-4a15-96e5-c5d4a0688694","time":"2018-08-17T16:20:00.387Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"trade","category":"dialog","event":"open","data":""}
+,{"user":"0f6b285d-664d-42cc-a9cc-48c6b74a8be1","session":"b88e7c9f-0c9c-4a15-96e5-c5d4a0688694","time":"2018-08-17T16:20:06.769Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"trade","category":"dialog","event":"close","data":""}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"604f6eef-cd64-4162-9512-06138ba23153","time":"2018-08-17T16:20:13.452Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"1405c05f-011f-41b6-9f3d-9ac01330cf07","time":"2018-08-17T16:20:14.166Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"956a8cdb-f189-4adc-a96f-bfda9c3cfb5a","time":"2018-08-17T16:21:01.225Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"956a8cdb-f189-4adc-a96f-bfda9c3cfb5a","time":"2018-08-17T16:21:06.626Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"3a48442e-773f-433d-bbe0-f2821f4d0032","time":"2018-08-17T16:21:08.039Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"3a48442e-773f-433d-bbe0-f2821f4d0032","time":"2018-08-17T16:21:21.714Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"1d101acd-893d-4aac-96ab-23855a5d1c18","time":"2018-08-17T16:21:22.834Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a5b2465d4007d870001c7926a"}}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"1d101acd-893d-4aac-96ab-23855a5d1c18","time":"2018-08-17T16:21:22.834Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"true"}}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"1d101acd-893d-4aac-96ab-23855a5d1c18","time":"2018-08-17T16:21:22.835Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+,{"user":"edaa4e7b-2e48-40ea-b2ad-961df3cf84b5","session":"7302ccd0-d5bf-4b17-8596-e10caf7e3e15","time":"2018-08-17T16:22:03.246Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"edaa4e7b-2e48-40ea-b2ad-961df3cf84b5","session":"aff84902-9a84-4f0d-af71-ddcb29677ebd","time":"2018-08-17T16:22:05.341Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a122","question2":"machines","question3":"transportation","question4":"a45","question5":"incredibles","share1":"2","share2":"2"}}
+,{"user":"edaa4e7b-2e48-40ea-b2ad-961df3cf84b5","session":"aff84902-9a84-4f0d-af71-ddcb29677ebd","time":"2018-08-17T16:22:05.341Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"1d101acd-893d-4aac-96ab-23855a5d1c18","time":"2018-08-17T16:22:16.382Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-trade-out","category":"interactive","event":"completed","data":{"guess":[["Tariffs on exports to China from USA",240.14084507042259],["Tariffs on exports to USA from China",345.07042253521126],["Total exports to China  from USA",244.36619718309856],["Total exports to USA from China",166.19718309859155]],"values":[["Tariffs on exports to USA from China",34],["Tariffs on exports to China from USA",34],["Total exports to USA from China",436],["Total exports to China  from USA",122]]}}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"1d101acd-893d-4aac-96ab-23855a5d1c18","time":"2018-08-17T16:22:54.516Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-chtous-out","category":"interactive","event":"completed","data":{"guess":[["Machines",38.73239436619718],["Metals",35.91549295774648],["Miscellaneous",148.2394366197183],["Plastics and Rubbers",201.05633802816905],["Textiles",46.83098591549296]],"values":[["Metals",21.8],["Textiles",40.112],["Plastics and Rubbers",18.748],["Machines",213.64],["Miscellaneous",52.32]]}}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"1d101acd-893d-4aac-96ab-23855a5d1c18","time":"2018-08-17T16:23:24.540Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-ustoch-out","category":"interactive","event":"completed","data":{"guess":[["Chemical Products",11.535211267605636],["Instruments",7.563380281690141],["Machines",13.309859154929576],["Transportation",9.380281690140846],["Vegetable Products",23.197183098591548]],"values":[["Transportation",25.62],["Machines",25.62],["Instruments",11.224],["Vegetable Products",17.08],["Chemical Products",10.858]]}}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"1405c05f-011f-41b6-9f3d-9ac01330cf07","time":"2018-08-17T16:23:31.157Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"1d101acd-893d-4aac-96ab-23855a5d1c18","time":"2018-08-17T16:23:32.533Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"f2e9cffd-4748-4d5d-b086-b816f4c0ea5c","time":"2018-08-17T16:23:33.087Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a$136bn","question2":"vegetable","question3":"transportation","question4":"a$20 million","question5":"sicario","share1":"2","share2":"7"}}
+,{"user":"a728b361-c7fb-44a9-88d2-dfa9740fb71c","session":"f2e9cffd-4748-4d5d-b086-b816f4c0ea5c","time":"2018-08-17T16:23:33.088Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"60979b7a-3573-45d4-bce1-c03fd401b2a5","time":"2018-08-17T16:23:34.994Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"60979b7a-3573-45d4-bce1-c03fd401b2a5","time":"2018-08-17T16:25:07.597Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"a3a0bd67-331d-4f6d-81ce-9a4063dd34be","time":"2018-08-17T16:25:09.119Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+,{"user":"aadae206-6e26-4e5e-b259-e2fb30b7d453","session":"91e417ab-43d1-4a8c-b19c-089415e8db9b","time":"2018-08-17T16:26:33.883Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"a3a0bd67-331d-4f6d-81ce-9a4063dd34be","time":"2018-08-17T16:26:35.016Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"4ce662a3-2645-47d9-a0d0-1e53c8e55b7f","time":"2018-08-17T16:26:36.258Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a196","question2":"chemical","question3":"instruments","question4":"a45","question5":"sicario","share1":"1","share2":"1"}}
+,{"user":"1c1030c2-2a91-4337-81d8-fd47f782e2ff","session":"4ce662a3-2645-47d9-a0d0-1e53c8e55b7f","time":"2018-08-17T16:26:36.260Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}
+,{"user":"aadae206-6e26-4e5e-b259-e2fb30b7d453","session":"eedbd0fb-1a09-4094-93f2-69846c7a7ebb","time":"2018-08-17T16:26:36.648Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"aadae206-6e26-4e5e-b259-e2fb30b7d453","session":"eedbd0fb-1a09-4094-93f2-69846c7a7ebb","time":"2018-08-17T16:27:27.658Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"aadae206-6e26-4e5e-b259-e2fb30b7d453","session":"3f3f9b25-d339-4f2c-a90b-74b14b24414e","time":"2018-08-17T16:27:28.582Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"4ed5167b-4c88-45ae-a4a5-cf0df7d8fd8e","session":"edc81b95-e7d6-417f-ac6a-bbdc31608f0f","time":"2018-08-17T16:28:30.192Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"4ed5167b-4c88-45ae-a4a5-cf0df7d8fd8e","session":"36d67187-f415-4bcb-b8b2-9b55764a6b4a","time":"2018-08-17T16:28:36.133Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"875f050d-3f22-4df4-b8b9-34cffed0a211","time":"2018-08-16T07:14:30.411Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Linux; Android 4.4.4; SM-T113 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Safari/537.36"}
+,{"user":"aadae206-6e26-4e5e-b259-e2fb30b7d453","session":"3f3f9b25-d339-4f2c-a90b-74b14b24414e","time":"2018-08-17T16:29:09.527Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"aadae206-6e26-4e5e-b259-e2fb30b7d453","session":"322bffed-08f7-4bc5-b948-4c09da0ec162","time":"2018-08-17T16:29:10.522Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a200","question2":"chemical","question3":"machines","question4":"a30","question5":"incredibles","share1":"2","share2":"2"}}
+,{"user":"aadae206-6e26-4e5e-b259-e2fb30b7d453","session":"322bffed-08f7-4bc5-b948-4c09da0ec162","time":"2018-08-17T16:29:10.523Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"875f050d-3f22-4df4-b8b9-34cffed0a211","time":"2018-08-16T07:14:48.906Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"22fde609-7729-4b3e-bb3c-c47354e75a73","time":"2018-08-16T07:14:54.093Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Linux; Android 4.4.4; SM-T113 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Safari/537.36"}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"22fde609-7729-4b3e-bb3c-c47354e75a73","time":"2018-08-16T07:15:14.317Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:15:17.433Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a5b2c68517297750001c79f1c"}}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:15:17.438Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"true"}}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:15:17.441Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Linux; Android 4.4.4; SM-T113 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Safari/537.36"}
+,{"user":"4ed5167b-4c88-45ae-a4a5-cf0df7d8fd8e","session":"36d67187-f415-4bcb-b8b2-9b55764a6b4a","time":"2018-08-17T16:30:04.895Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"4ed5167b-4c88-45ae-a4a5-cf0df7d8fd8e","session":"cb1f3d96-3a4c-49ee-8dfb-321177cfc43f","time":"2018-08-17T16:30:06.980Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"4ed5167b-4c88-45ae-a4a5-cf0df7d8fd8e","session":"cb1f3d96-3a4c-49ee-8dfb-321177cfc43f","time":"2018-08-17T16:31:21.671Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"4ed5167b-4c88-45ae-a4a5-cf0df7d8fd8e","session":"515fd5ce-7052-4f99-b0a6-a7f0d3987abd","time":"2018-08-17T16:31:22.727Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a212","question2":"machines","question3":"transportation","question4":"a30","question5":"incredibles","share1":"1","share2":"3"}}
+,{"user":"4ed5167b-4c88-45ae-a4a5-cf0df7d8fd8e","session":"515fd5ce-7052-4f99-b0a6-a7f0d3987abd","time":"2018-08-17T16:31:22.727Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:17:03.403Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-trade-out","category":"interactive","event":"completed","data":{"guess":[["Tariffs on exports to China from USA",91.30223112286262],["Tariffs on exports to USA from China",39.50177318644973],["Total exports to China  from USA",327.7006905033903],["Total exports to USA from China",143.97348367942956]],"values":[["Tariffs on exports to USA from China",34],["Tariffs on exports to China from USA",34],["Total exports to USA from China",436],["Total exports to China  from USA",122]]}}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:17:29.249Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-chtous-out","category":"interactive","event":"completed","data":{"guess":[["Machines",73.4349952553803],["Metals",38.587415443276456],["Miscellaneous",42.20520595334611],["Plastics and Rubbers",79.52025071629939],["Textiles",85.67874116717644]],"values":[["Machines",213.64],["Metals",21.8],["Textiles",40.112],["Miscellaneous",52.32],["Plastics and Rubbers",18.748]]}}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:17:55.325Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-ustoch-out","category":"interactive","event":"completed","data":{"guess":[["Chemical Products",12.089755364184109],["Instruments",17.345147474756782],["Machines",8.026256345353037],["Transportation",14.124101170953715],["Vegetable Products",17.643571385797465]],"values":[["Instruments",11.224],["Chemical Products",10.858],["Vegetable Products",17.08],["Machines",25.62],["Transportation",25.62]]}}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:18:02.166Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-ustoch-out","category":"interactive","event":"completed","data":{"guess":[["Chemical Products",12.089755364184109],["Instruments",17.345147474756782],["Machines",8.026256345353037],["Transportation",14.124101170953715],["Vegetable Products",17.643571385797465]],"values":[["Instruments",11.224],["Chemical Products",10.858],["Vegetable Products",17.08],["Machines",25.62],["Transportation",25.62]]}}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"0f0c40c2-718e-4404-8f2f-8e4d23d4a999","time":"2018-08-16T07:18:05.049Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"cb92bc8e-d144-4d19-8f00-b0a56dd55c80","time":"2018-08-16T07:18:08.980Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Linux; Android 4.4.4; SM-T113 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Safari/537.36"}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"cb92bc8e-d144-4d19-8f00-b0a56dd55c80","time":"2018-08-16T07:18:17.433Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"84074150-45d7-43e2-a550-76ac26c1b445","time":"2018-08-16T07:18:20.685Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Linux; Android 4.4.4; SM-T113 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Safari/537.36"}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"84074150-45d7-43e2-a550-76ac26c1b445","time":"2018-08-16T07:19:47.578Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"5aa454b5-2106-49a4-8a1b-8e5b3fce802c","time":"2018-08-16T07:19:50.536Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a45,000,000,000,000","question2":"transportation","question3":"chemical","question4":"a4,000,000,000,000","question5":"uncle","share1":"5","share2":"8"}}
+,{"user":"5d4833e8-0b49-4909-9bd7-1e9b0405d20f","session":"5aa454b5-2106-49a4-8a1b-8e5b3fce802c","time":"2018-08-16T07:19:50.541Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Linux; Android 4.4.4; SM-T113 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Safari/537.36"}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"498d5e06-7f5a-46d7-9710-93a691196490","time":"2018-08-17T16:38:52.682Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"0037d5a9-b4af-4ca4-9cd3-212beb775e80","time":"2018-08-17T16:38:54.883Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"0037d5a9-b4af-4ca4-9cd3-212beb775e80","time":"2018-08-17T16:39:02.354Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"f881b1da-0dc9-4281-b5d4-8991b970af3e","time":"2018-08-17T16:39:03.289Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a589f4b4b4d580c0001e0a155"}}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"f881b1da-0dc9-4281-b5d4-8991b970af3e","time":"2018-08-17T16:39:03.290Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"false"}}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"f881b1da-0dc9-4281-b5d4-8991b970af3e","time":"2018-08-17T16:39:03.291Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"f881b1da-0dc9-4281-b5d4-8991b970af3e","time":"2018-08-17T16:39:53.339Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"d6ecfa3a-4dac-4006-91e0-7eb5bc9eb394","time":"2018-08-17T16:39:54.693Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"d6ecfa3a-4dac-4006-91e0-7eb5bc9eb394","time":"2018-08-17T16:40:04.916Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"5a9d2c49-ca52-437f-9e46-6dc503e3a904","time":"2018-08-17T16:40:05.680Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"5a9d2c49-ca52-437f-9e46-6dc503e3a904","time":"2018-08-17T16:40:53.989Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"c31ab728-3541-4987-9ac8-da44d081376f","time":"2018-08-17T16:40:54.937Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a800BN","question2":"machines","question3":"chemical","question4":"a34","question5":"sicario","share1":"3","share2":"1"}}
+,{"user":"f8a6879c-bdd2-4a05-b5bb-64688c98c74c","session":"c31ab728-3541-4987-9ac8-da44d081376f","time":"2018-08-17T16:40:54.938Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"d9da78cc-2bc1-45e1-8178-76daacc894af","time":"2018-08-17T16:41:23.527Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"d9da78cc-2bc1-45e1-8178-76daacc894af","time":"2018-08-17T16:41:46.963Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"82cb5387-ef6b-4744-9c36-86ce2624448b","time":"2018-08-17T16:41:49.436Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"82cb5387-ef6b-4744-9c36-86ce2624448b","time":"2018-08-17T16:42:40.009Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"8a4d1d41-0668-43bd-b370-b4cbbadeed0b","time":"2018-08-17T16:42:41.058Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a5b54b7622680970001a9a7c9"}}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"8a4d1d41-0668-43bd-b370-b4cbbadeed0b","time":"2018-08-17T16:42:41.058Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"false","interactive":"false"}}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"8a4d1d41-0668-43bd-b370-b4cbbadeed0b","time":"2018-08-17T16:42:41.059Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"8a4d1d41-0668-43bd-b370-b4cbbadeed0b","time":"2018-08-17T16:48:16.937Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"5f8409a2-6853-4ed1-bd2a-958571180c9f","time":"2018-08-17T16:48:19.941Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"2d46529e-d00c-4318-b009-0b3ecca3faff","time":"2018-08-17T16:48:28.833Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"2d46529e-d00c-4318-b009-0b3ecca3faff","time":"2018-08-17T16:48:40.178Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"48e7ad0b-b042-4ebd-9ddc-d07109dfc379","time":"2018-08-17T16:48:41.085Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"48e7ad0b-b042-4ebd-9ddc-d07109dfc379","time":"2018-08-17T16:48:45.427Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"ad4a0413-da8b-437f-bdc0-1f42d1509816","time":"2018-08-17T16:48:46.413Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a56c90db0722239000cba5b8a"}}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"ad4a0413-da8b-437f-bdc0-1f42d1509816","time":"2018-08-17T16:48:46.413Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"true"}}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"ad4a0413-da8b-437f-bdc0-1f42d1509816","time":"2018-08-17T16:48:46.414Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"25306a7a-8b25-4b49-80b2-43c324b7a9ae","time":"2018-08-17T16:49:25.005Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"25306a7a-8b25-4b49-80b2-43c324b7a9ae","time":"2018-08-17T16:49:41.740Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"2ac05b47-2b0c-4e6d-b41f-6e63d69c380d","time":"2018-08-17T16:49:42.911Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"2ac05b47-2b0c-4e6d-b41f-6e63d69c380d","time":"2018-08-17T16:50:05.604Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"c2a26179-2ad5-4325-a583-df65e4a23697","time":"2018-08-17T16:50:07.031Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a5a91fdd96219a30001d2e82c"}}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"c2a26179-2ad5-4325-a583-df65e4a23697","time":"2018-08-17T16:50:07.031Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"false"}}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"c2a26179-2ad5-4325-a583-df65e4a23697","time":"2018-08-17T16:50:07.031Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"ad4a0413-da8b-437f-bdc0-1f42d1509816","time":"2018-08-17T16:50:08.972Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-trade-out","category":"interactive","event":"completed","data":{"guess":[["Tariffs on exports to China from USA",308.45070422535207],["Tariffs on exports to USA from China",407.7464788732394],["Total exports to China  from USA",68.30985915492958],["Total exports to USA from China",347.18309859154925]],"values":[["Tariffs on exports to USA from China",34],["Tariffs on exports to China from USA",34],["Total exports to USA from China",436],["Total exports to China  from USA",122]]}}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"ad4a0413-da8b-437f-bdc0-1f42d1509816","time":"2018-08-17T16:51:00.899Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-chtous-out","category":"interactive","event":"completed","data":{"guess":[["Machines",63.028169014084504],["Metals",149.29577464788733],["Miscellaneous",145.77464788732394],["Plastics and Rubbers",44.36619718309859],["Textiles",99.64788732394365]],"values":[["Metals",21.8],["Textiles",40.112],["Miscellaneous",52.32],["Machines",213.64],["Plastics and Rubbers",18.748]]}}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"5f8409a2-6853-4ed1-bd2a-958571180c9f","time":"2018-08-17T16:51:44.707Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"9234ac0f-72cb-4033-a9a0-be9ac5c69e33","time":"2018-08-17T16:51:46.735Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"ad4a0413-da8b-437f-bdc0-1f42d1509816","time":"2018-08-17T16:51:44.968Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-ustoch-out","category":"interactive","event":"completed","data":{"guess":[["Chemical Products",17.619718309859156],["Instruments",7.985915492957746],["Machines",2.028169014084507],["Transportation",6.464788732394366],["Vegetable Products",1.436619718309859]],"values":[["Vegetable Products",17.08],["Instruments",11.224],["Machines",25.62],["Chemical Products",10.858],["Transportation",25.62]]}}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"ad4a0413-da8b-437f-bdc0-1f42d1509816","time":"2018-08-17T16:51:55.408Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"1a650657-92f7-480c-a670-f83f44d6beb2","time":"2018-08-17T16:51:57.493Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"4043d01c-4190-4c63-85a1-679bfc6416a3","time":"2018-08-17T16:52:45.145Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"4043d01c-4190-4c63-85a1-679bfc6416a3","time":"2018-08-17T16:53:14.455Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"84ab9719-f2ee-46ce-a6bd-a309505f88eb","time":"2018-08-17T16:53:16.106Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"1a650657-92f7-480c-a670-f83f44d6beb2","time":"2018-08-17T16:53:03.306Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"7b6700a5-177d-4b8c-9a7b-2e43fb352f08","time":"2018-08-17T16:53:04.355Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"84ab9719-f2ee-46ce-a6bd-a309505f88eb","time":"2018-08-17T16:53:30.599Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"06e59a86-b58e-4a31-8618-94dcdf275fc2","time":"2018-08-17T16:53:32.027Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a59fd920f9b760100013a6412"}}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"06e59a86-b58e-4a31-8618-94dcdf275fc2","time":"2018-08-17T16:53:32.027Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"false","interactive":"false"}}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"06e59a86-b58e-4a31-8618-94dcdf275fc2","time":"2018-08-17T16:53:32.027Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"28a9013d-2358-40a7-a07a-85c92102bfd7","time":"2018-08-17T16:53:47.871Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"28a9013d-2358-40a7-a07a-85c92102bfd7","time":"2018-08-17T16:54:00.954Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"805f2ab1-b39b-4115-9033-69e3eb08a8ee","time":"2018-08-17T16:54:01.778Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"805f2ab1-b39b-4115-9033-69e3eb08a8ee","time":"2018-08-17T16:54:07.394Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:54:08.975Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a580a6d0d5773b50001aab1d4"}}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:54:08.976Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"true"}}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:54:08.976Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"9fa98662-5cec-4a6d-9d04-5d4d11e490d8","time":"2018-08-17T16:54:17.391Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"3d71e4de-75f8-4f4b-b9a3-f06b42eee970","time":"2018-08-17T16:54:27.383Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0"}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"9fa98662-5cec-4a6d-9d04-5d4d11e490d8","time":"2018-08-17T16:54:27.856Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"468556c1-3f54-4119-909a-59f87d50fd2f","time":"2018-08-17T16:54:28.464Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"468556c1-3f54-4119-909a-59f87d50fd2f","time":"2018-08-17T16:54:43.047Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"6763244d-e199-4715-b22a-4e49afa64d6d","time":"2018-08-17T16:54:43.854Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a59ff47d47ecfc50001be0555"}}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"6763244d-e199-4715-b22a-4e49afa64d6d","time":"2018-08-17T16:54:43.854Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"false"}}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"6763244d-e199-4715-b22a-4e49afa64d6d","time":"2018-08-17T16:54:43.854Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"3d71e4de-75f8-4f4b-b9a3-f06b42eee970","time":"2018-08-17T16:54:53.619Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"1652da55-c271-4f9d-ad99-b804ca32e39a","time":"2018-08-17T16:54:54.691Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0"}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"1652da55-c271-4f9d-ad99-b804ca32e39a","time":"2018-08-17T16:55:09.396Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"c9e0a282-ab58-4512-966f-f57c1ef3bbff","time":"2018-08-17T16:55:10.513Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a5b33ce040670a50001a3a265"}}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"c9e0a282-ab58-4512-966f-f57c1ef3bbff","time":"2018-08-17T16:55:10.514Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"false","interactive":"false"}}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"c9e0a282-ab58-4512-966f-f57c1ef3bbff","time":"2018-08-17T16:55:10.514Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0"}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"c2a26179-2ad5-4325-a583-df65e4a23697","time":"2018-08-17T16:55:21.934Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"1d6ccf8a-4aa0-432b-b7fd-91e001f85b63","time":"2018-08-17T16:55:24.008Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"1d35548a-4eac-4386-baee-3031aa053a6f","time":"2018-08-17T16:55:28.389Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"1d35548a-4eac-4386-baee-3031aa053a6f","time":"2018-08-17T16:55:34.682Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"d65ab5ae-bed5-4c1a-8f20-1ae047b9317f","time":"2018-08-17T16:55:35.380Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"d65ab5ae-bed5-4c1a-8f20-1ae047b9317f","time":"2018-08-17T16:55:45.041Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T16:55:45.828Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a5abc517c1667e40001d80d68"}}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T16:55:45.829Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"true"}}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T16:55:45.829Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:56:04.309Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-trade-out","category":"interactive","event":"completed","data":{"guess":[["Tariffs on exports to China from USA",148.59154929577466],["Tariffs on exports to USA from China",447.746513259243],["Total exports to China  from USA",93.94367916483273],["Total exports to USA from China",403.8028340944102]],"values":[["Tariffs on exports to USA from China",34],["Tariffs on exports to China from USA",34],["Total exports to USA from China",436],["Total exports to China  from USA",122]]}}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"7b6700a5-177d-4b8c-9a7b-2e43fb352f08","time":"2018-08-17T16:55:35.921Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"31a7e519-3385-48ee-b92f-dbdf3a380657","time":"2018-08-17T16:55:38.118Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a250","question2":"machines","question3":"chemical","question4":"a20","question5":"sicario","share1":"5","share2":"4"}}
+,{"user":"85875f1a-58ea-45ce-bdc5-a917b6e067ef","session":"31a7e519-3385-48ee-b92f-dbdf3a380657","time":"2018-08-17T16:55:38.120Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:56:42.453Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-chtous-out","category":"interactive","event":"completed","data":{"guess":[["Machines",97.95775077712366],["Metals",67.53520696935519],["Miscellaneous",150.07042683346168],["Plastics and Rubbers",96.83098591549296],["Textiles",176.83099021374343]],"values":[["Machines",213.64],["Miscellaneous",52.32],["Textiles",40.112],["Plastics and Rubbers",18.748],["Metals",21.8]]}}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:56:48.244Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-chtous-out","category":"interactive","event":"completed","data":{"guess":[["Machines",97.95775077712366],["Metals",67.53520696935519],["Miscellaneous",150.07042683346168],["Plastics and Rubbers",96.83098591549296],["Textiles",176.83099021374343]],"values":[["Machines",213.64],["Miscellaneous",52.32],["Textiles",40.112],["Plastics and Rubbers",18.748],["Metals",21.8]]}}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"06e59a86-b58e-4a31-8618-94dcdf275fc2","time":"2018-08-17T16:56:46.285Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"7947acbc-7d0c-41b2-a18b-dcc438cccdd5","time":"2018-08-17T16:56:49.073Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"9234ac0f-72cb-4033-a9a0-be9ac5c69e33","time":"2018-08-17T16:57:00.153Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"8b98c511-c25c-484e-a9cd-92bba351ac8f","time":"2018-08-17T16:57:01.924Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a153bn","question2":"machines","question3":"vegetable","question4":"a35 million","question5":"incredibles","share1":"2","share2":"1"}}
+,{"user":"c597d2f8-2f15-48ba-8a87-b33126435b88","session":"8b98c511-c25c-484e-a9cd-92bba351ac8f","time":"2018-08-17T16:57:01.925Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:57:11.745Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-ustoch-out","category":"interactive","event":"completed","data":{"guess":[["Chemical Products",9.38873291015625],["Instruments",9.861972862566022],["Machines",6.887323943661971],["Transportation",9.557746994663292],["Vegetable Products",9.659156476947622]],"values":[["Machines",25.62],["Transportation",25.62],["Vegetable Products",17.08],["Instruments",11.224],["Chemical Products",10.858]]}}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"1d6ccf8a-4aa0-432b-b7fd-91e001f85b63","time":"2018-08-17T16:57:17.051Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"c9e0a282-ab58-4512-966f-f57c1ef3bbff","time":"2018-08-17T16:57:18.770Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"7d93b695-cac8-4598-bf9a-c67079c0a47e","time":"2018-08-17T16:57:18.972Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"f54efa72-c789-4802-a915-f53cf22377d4","time":"2018-08-17T16:57:20.694Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"02b29766-8c63-4319-81d5-1389a1f9692b","time":"2018-08-17T16:57:39.875Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"1c90161a-230e-4639-95d4-e401d2cab717","time":"2018-08-17T16:57:42.723Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T16:58:13.867Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-trade-out","category":"interactive","event":"completed","data":{"guess":[["Tariffs on exports to China from USA",108.45070422535211],["Tariffs on exports to USA from China",196.47887323943658],["Total exports to China  from USA",207.04225352112672],["Total exports to USA from China",372.5352112676057]],"values":[["Tariffs on exports to USA from China",34],["Tariffs on exports to China from USA",34],["Total exports to USA from China",436],["Total exports to China  from USA",122]]}}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"6763244d-e199-4715-b22a-4e49afa64d6d","time":"2018-08-17T16:58:13.770Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"f54efa72-c789-4802-a915-f53cf22377d4","time":"2018-08-17T16:58:17.650Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"9ee5dc11-5b6d-4810-95f7-1a4933421729","time":"2018-08-17T16:58:15.639Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"c5185878-42e5-4b3d-b6c4-2ca03bd33c67","time":"2018-08-17T16:58:18.611Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T16:58:22.771Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-trade-out","category":"interactive","event":"completed","data":{"guess":[["Tariffs on exports to China from USA",108.45070422535211],["Tariffs on exports to USA from China",196.47887323943658],["Total exports to China  from USA",207.04225352112672],["Total exports to USA from China",372.5352112676057]],"values":[["Tariffs on exports to USA from China",34],["Tariffs on exports to China from USA",34],["Total exports to USA from China",436],["Total exports to China  from USA",122]]}}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"7947acbc-7d0c-41b2-a18b-dcc438cccdd5","time":"2018-08-17T16:58:22.827Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"cb3bd862-9a25-4b4c-bfbd-68528a99787a","time":"2018-08-17T16:58:24.158Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"7d93b695-cac8-4598-bf9a-c67079c0a47e","time":"2018-08-17T16:58:57.733Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"b8928dfc-c819-4231-8657-3b223e50d00f","time":"2018-08-17T16:59:00.304Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a$150bn","question2":"machines","question3":"transportation","question4":"a$40 million (?)","question5":"incredibles","share1":"1","share2":"1"}}
+,{"user":"effc6d4d-7a8e-4450-a29c-6c33d41541ec","session":"b8928dfc-c819-4231-8657-3b223e50d00f","time":"2018-08-17T16:59:00.305Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"1c90161a-230e-4639-95d4-e401d2cab717","time":"2018-08-17T16:59:17.405Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"bd320986-6cbc-410a-936b-c39192fbb949","time":"2018-08-17T16:59:18.715Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T16:59:41.534Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-chtous-out","category":"interactive","event":"completed","data":{"guess":[["Machines",118.66197183098592],["Metals",176.76056338028167],["Miscellaneous",86.61971830985915],["Plastics and Rubbers",116.5492957746479],["Textiles",66.19718309859154]],"values":[["Miscellaneous",52.32],["Textiles",40.112],["Plastics and Rubbers",18.748],["Machines",213.64],["Metals",21.8]]}}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"9ee5dc11-5b6d-4810-95f7-1a4933421729","time":"2018-08-17T17:00:02.464Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"b96069ab-d906-41ed-9267-227893e3b61f","time":"2018-08-17T17:00:03.122Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"bd320986-6cbc-410a-936b-c39192fbb949","time":"2018-08-17T17:00:11.764Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"f403b251-7c0a-4b0b-91b2-e2113b5e735f","time":"2018-08-17T17:00:12.686Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a225b","question2":"machines","question3":"transportation","question4":"a45","question5":"incredibles","share1":"1","share2":"1"}}
+,{"user":"3630bb6d-66c2-47a6-97fe-e1ae5d766c92","session":"f403b251-7c0a-4b0b-91b2-e2113b5e735f","time":"2018-08-17T17:00:12.686Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T17:00:40.052Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"thegamma-ustoch-out","category":"interactive","event":"completed","data":{"guess":[["Chemical Products",14.112676056338028],["Instruments",13.56338028169014],["Machines",3.295774647887324],["Transportation",6.549295774647888],["Vegetable Products",19.056338028169016]],"values":[["Instruments",11.224],["Transportation",25.62],["Vegetable Products",17.08],["Chemical Products",10.858],["Machines",25.62]]}}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"9a512752-2388-4026-9c6e-ef174e903eb2","time":"2018-08-17T17:00:48.437Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"9a512752-2388-4026-9c6e-ef174e903eb2","time":"2018-08-17T17:00:53.343Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"7ab5379e-1109-4adb-9d0f-427aed30cb67","time":"2018-08-17T17:00:54.661Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"7ab5379e-1109-4adb-9d0f-427aed30cb67","time":"2018-08-17T17:01:15.315Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step2","element":"step2","category":"page","event":"next","data":""}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"67428cff-b0cc-440d-82c2-b4f8415355e4","time":"2018-08-17T17:01:16.905Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"info","data":{"prolificid":"a5af5bcf9b4dfd600018fc68e"}}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"67428cff-b0cc-440d-82c2-b4f8415355e4","time":"2018-08-17T17:01:16.906Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"","category":"user","event":"modes","data":{"visual":"true","interactive":"false"}}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"67428cff-b0cc-440d-82c2-b4f8415355e4","time":"2018-08-17T17:01:16.907Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"4fced3da-3ad7-451f-8af4-8025322b16b4","time":"2018-08-17T17:01:29.552Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"22c35978-e874-4469-acf3-3b39ac2e6a68","time":"2018-08-17T17:01:31.639Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"b96069ab-d906-41ed-9267-227893e3b61f","time":"2018-08-17T17:01:38.214Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"886cc99d-6595-493f-974b-b18fb4d66ad6","time":"2018-08-17T17:01:38.867Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a1000","question2":"machines","question3":"chemical","question4":"a45","question5":"incredibles","share1":"0","share2":"1"}}
+,{"user":"a4f3d26b-257d-4b16-ac68-2e8624e06095","session":"886cc99d-6595-493f-974b-b18fb4d66ad6","time":"2018-08-17T17:01:38.867Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"22c35978-e874-4469-acf3-3b39ac2e6a68","time":"2018-08-17T17:03:20.208Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"6d5ed2ce-4fdd-46e9-a7ac-a44ee92628da","time":"2018-08-17T17:03:21.002Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"67428cff-b0cc-440d-82c2-b4f8415355e4","time":"2018-08-17T17:03:33.914Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step3","element":"step3","category":"page","event":"next","data":""}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"2282ebe1-71e2-425b-bc71-ed4457437ff1","time":"2018-08-17T17:03:36.165Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"cb3bd862-9a25-4b4c-bfbd-68528a99787a","time":"2018-08-17T17:04:06.285Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"d9819790-295e-406c-b0dc-c4d7110515b6","time":"2018-08-17T17:04:08.948Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a122","question2":"machines","question3":"transportation","question4":"a45","question5":"incredibles","share1":"2","share2":"2"}}
+,{"user":"8cb24540-e527-4993-95ad-f94598c7fa73","session":"d9819790-295e-406c-b0dc-c4d7110515b6","time":"2018-08-17T17:04:08.948Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"2282ebe1-71e2-425b-bc71-ed4457437ff1","time":"2018-08-17T17:04:17.157Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step4","element":"step4","category":"page","event":"next","data":""}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"b9c54eb8-bdae-4705-979b-a46ffb885f70","time":"2018-08-17T17:04:18.695Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"6d5ed2ce-4fdd-46e9-a7ac-a44ee92628da","time":"2018-08-17T17:05:12.065Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"7edec307-d49b-4a4e-b3be-6098df61a13b","time":"2018-08-17T17:05:12.782Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a125bn","question2":"machines","question3":"transportation","question4":"a45 million","question5":"incredibles","share1":"7","share2":"7"}}
+,{"user":"a080c800-8957-497b-a697-75ff7574645c","session":"7edec307-d49b-4a4e-b3be-6098df61a13b","time":"2018-08-17T17:05:12.782Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"b9c54eb8-bdae-4705-979b-a46ffb885f70","time":"2018-08-17T17:05:12.317Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"06737640-2f0b-41c6-be9f-9cf1c83f1688","time":"2018-08-17T17:05:13.737Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a54","question2":"machines","question3":"vegetable","question4":"a40","question5":"incredibles","share1":"3","share2":"5"}}
+,{"user":"d82969b7-7759-4f79-a1e0-d9957bbce556","session":"06737640-2f0b-41c6-be9f-9cf1c83f1688","time":"2018-08-17T17:05:13.738Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"c5185878-42e5-4b3d-b6c4-2ca03bd33c67","time":"2018-08-17T17:05:20.303Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step5","element":"step5","category":"page","event":"next","data":""}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"3792cd00-2500-41d5-a9dd-2595dd12bc98","time":"2018-08-17T17:05:22.224Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"","category":"user","event":"answers","data":{"question1":"a122","question2":"machines","question3":"vegetable","question4":"a45 million","question5":"incredibles","share1":"8","share2":"2"}}
+,{"user":"1c69cbb6-0615-48b7-8701-fdba42f80e46","session":"3792cd00-2500-41d5-a9dd-2595dd12bc98","time":"2018-08-17T17:05:22.225Z","url":"https://dataviz-study.azurewebsites.net/LZO66C0G/step6","element":"step6","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0"}
+,{"user":"1d690d4a-f9b6-4807-b1b1-0106cf728dc1","session":"8d1da3a1-fa97-4a38-ad61-a6b6de521bde","time":"2018-08-17T19:14:06.550Z","url":"https://dataviz-study.azurewebsites.net/aa/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1d690d4a-f9b6-4807-b1b1-0106cf728dc1","session":"8d1da3a1-fa97-4a38-ad61-a6b6de521bde","time":"2018-08-17T19:14:21.016Z","url":"https://dataviz-study.azurewebsites.net/aa/step1","element":"step1","category":"page","event":"next","data":""}
+,{"user":"1d690d4a-f9b6-4807-b1b1-0106cf728dc1","session":"dbce37c2-fe76-4c9e-af66-6e863182919a","time":"2018-08-17T19:14:21.402Z","url":"https://dataviz-study.azurewebsites.net/aa/step2","element":"step2","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+,{"user":"1d690d4a-f9b6-4807-b1b1-0106cf728dc1","session":"40820ac2-4749-4155-a322-fc1fe7bbc692","time":"2018-08-17T19:14:31.198Z","url":"https://dataviz-study.azurewebsites.net/aa/step1","element":"step1","category":"page","event":"loaded","data":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+
 ]

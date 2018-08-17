@@ -224,6 +224,8 @@ barGuesses "thegamma-grossDomesticProduct-out"
 // Logs analaysis for Dataviz study
 // ------------------------------------------------------------------------------------------------
 
+open XPlot.GoogleCharts
+
 let [<Literal>] datavizSample = __SOURCE_DIRECTORY__ + "/samples/dataviz.json"
 let datavizRoot = __SOURCE_DIRECTORY__ + "/logs/datavizstudy"
 type Dataviz = JsonProvider<datavizSample>
@@ -237,13 +239,132 @@ let dataviz =
   Dataviz.Parse("[" + datavizJson + "]")
   |> Array.filter (fun e -> e.Url.Contains("dataviz-study.azurewebsites.net"))
 
+// Unique Prolific IDs
 dataviz
-|> Seq.countBy (fun u -> u.User)
+|> Seq.choose (fun e -> e.Data.Record)
+|> Seq.choose (fun e -> e.Prolificid)
+|> Seq.distinct
+|> Seq.iter (printfn "%s")
 
-let events = 
-  dataviz 
-  |> Seq.filter (fun e -> e.User = Guid.Parse("871103a2-a5c4-49a0-9ec6-762c04e32157"))
-  |> Seq.sortBy (fun e -> e.Time) 
-  
-for e in events do 
-  printfn "[%s] %s (%s) - %A" e.Category e.Event (defaultArg e.Element "") e.Data
+
+let pids = 
+  [ "596e1af7a09655000197d4bb"
+    "593ab35d51244c00013dcb69"
+    "58effc65c31d4d00015aa5b9"
+    "5b2465d4007d870001c7926a"
+    "5b0c8052444cef0001ca5b6b"
+    "5a6c0147d5d4cb0001d659e4"
+    "5b7341a7543d1c0001c80a26"
+    "55b8d0bffdf99b0f2859fe73"
+    "5b6cfa80a1fda800015fff52"
+    "5b2c68517297750001c79f1c"
+    "589f4b4b4d580c0001e0a155"
+    "5b54b7622680970001a9a7c9"
+    "56c90db0722239000cba5b8a"
+    "5a91fdd96219a30001d2e82c"
+    "59fd920f9b760100013a6412"
+    "580a6d0d5773b50001aab1d4"
+    "59ff47d47ecfc50001be0555"
+    "5b33ce040670a50001a3a265"
+    "5abc517c1667e40001d80d68"
+    "5af5bcf9b4dfd600018fc68e" ]
+
+let pid = Seq.head pids
+
+type Answers =      
+  { share1: int
+    share2: int
+    q1: string
+    q2: string
+    q3: string
+    q4: string }
+
+type Info = 
+  { mode: string 
+    time: float 
+    answers: Answers }
+
+let info = 
+  [ for pid in pids do
+    printfn "\n%s" pid
+    if pid <> "5b2465d4007d870001c7926a" && pid <> "5b7341a7543d1c0001c80a26" then
+      let info = 
+        dataviz |> Array.find (fun e -> 
+          e.Category = "user" && e.Event = "info" && 
+            e.Data.Record.IsSome && e.Data.Record.Value.Prolificid = Some pid)
+      let user = info.User
+
+      let events = 
+        dataviz |> Array.filter (fun e -> e.User = user)
+      let times = 
+        events |> Array.map (fun e -> e.Time)
+      let time = (Array.max times) - (Array.min times)
+
+      let mode = 
+        if not (events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r -> r.Visual)) then "image"
+        elif not (events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r -> r.Interactive)) then "chart"
+        else "interactive"
+
+      let answers = 
+        events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r ->
+          match r.Question1, r.Question2, r.Question3, r.Question4, r.Question5, r.Share1, r.Share2 with
+          | Some q1, Some q2a, Some q2b, Some q3, Some q4, Some s1, Some s2 ->
+              Some { share1=s1; share2=s2; q1=q1; q2=q2a+" "+q2b; q3=q3; q4=q4 }
+          | _ -> None)
+
+      printfn "  events: %d" (events |> Seq.length)
+      printfn "  time: %.2f" (time.TotalMinutes)
+      printfn "  mode: %s" mode 
+      yield { mode=mode; time=time.TotalMinutes; answers=answers } ]
+
+let parseNumber (n:string) =
+  let i = n |> String.filter Char.IsNumber |> int64
+  if i < 10000L then float i else float (i / 1000000000000L)
+
+// TIME: How long it took people to complete?
+ 
+let modes = ["interactive";"image";"chart"]
+let data1 = 
+  [ for mode in modes -> 
+    [ for i, v in Seq.indexed info do
+        if v.mode = mode then yield i, v.time ] ]
+Chart.Scatter(data1) |> Chart.WithLabels modes
+
+// Q1: Average guess of exports from US to China
+
+let data2 = 
+  [ for mode in modes -> 
+    [ for i, v in Seq.indexed info do
+        let f = parseNumber v.answers.q1
+        if f < 700.0 then
+          if v.mode = mode then yield i, f ] ]
+Chart.Scatter(data2) |> Chart.WithLabels modes
+
+data2 |> Seq.map (Seq.averageBy snd) |> Seq.zip modes
+
+// Q2: How many people got this right?
+
+let data3 = 
+  [ for mode in modes -> 
+    [ for i, v in Seq.indexed info do
+        if v.mode = mode then yield i, v.answers.q2 = "machines transportation" ] ]
+
+data3 |> Seq.map (fun d -> 
+  let right = Seq.filter snd d |> Seq.length
+  float right / float (Seq.length d) ) |> Seq.zip modes
+
+// SHARE: How likely are people to share?
+
+let data4 = 
+  [ [ for i, v in Seq.indexed info do
+      yield i, v.answers.share2 ] ] @
+  [ for mode in modes ->
+    [ for i, v in Seq.indexed info do
+        if v.mode = mode then yield i, v.answers.share1 ] ] 
+let labels = "Share 2" :: (List.map (sprintf "Share 1 (%s)") modes)
+Chart.Scatter(data4) 
+|> Chart.WithLabels labels
+|> Chart.WithOptions(Options(colors=[|"#e0e0e0"; "blue";"red";"orange"|]))
+
+
+

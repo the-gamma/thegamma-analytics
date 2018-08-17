@@ -2,3 +2,5 @@
 packages
 logs
 config.fsx
+.paket/Paket.Restore.targets
+paket-files/
