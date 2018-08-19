@@ -269,6 +269,20 @@ let pids =
     "5abc517c1667e40001d80d68"
     "5af5bcf9b4dfd600018fc68e" ]
 
+let university = 
+  [ "5b2c68517297750001c79f1c"
+    "5b54b7622680970001a9a7c9"
+    "56c90db0722239000cba5b8a"
+    "54a70109fdf99b7cd759d21f"
+    "5a80bf6e2a842c0001fc9064"
+    "5a91fdd96219a30001d2e82c"
+    "59fd920f9b760100013a6412"
+    "580a6d0d5773b50001aab1d4"
+    "59ff47d47ecfc50001be0555"
+    "5b33ce040670a50001a3a265"
+    "5abc517c1667e40001d80d68"
+    "5af5bcf9b4dfd600018fc68e" ] |> set
+
 let pid = Seq.head pids
 
 type Answers =      
@@ -280,8 +294,10 @@ type Answers =
     q4: string }
 
 type Info = 
-  { mode: string 
+  { university: bool
+    mode: string 
     time: float 
+    completed: list<Map<string,(float * float)>>
     answers: Answers }
 
 let info = 
@@ -305,6 +321,22 @@ let info =
         elif not (events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r -> r.Interactive)) then "chart"
         else "interactive"
 
+      let asMap (guesses:Dataviz.DecimalOrString[]) (values:Dataviz.DecimalOrString[]) = 
+        let guesses = guesses |> Array.sortBy (fun g -> g.JsonValue.AsArray().[0].AsString())
+        let values = values |> Array.sortBy (fun g -> g.JsonValue.AsArray().[0].AsString())
+        let map = (guesses, values) ||> Array.map2 (fun g v ->
+          if g.JsonValue.AsArray().[0].AsString() <> v.JsonValue.AsArray().[0].AsString() then failwith "oops"
+          g.JsonValue.AsArray().[0].AsString(),
+          ( v.JsonValue.AsArray().[1].AsFloat(),
+            g.JsonValue.AsArray().[1].AsFloat() ) ) |> Map.ofSeq
+        if map.ContainsKey "Miscellaneous" then Map.ofSeq [ for k,v in Map.toSeq map -> k + " (China exports)", v ]
+        elif map.ContainsKey "Vegetable Products" then Map.ofSeq [ for k,v in Map.toSeq map -> k + " (US exports)", v ]
+        else map
+
+      let completed = 
+        events |> Seq.choose (fun e -> if e.Event <> "completed" then None else e.Data.Record) 
+          |> Seq.map (fun r -> asMap r.Guess r.Values)
+
       let answers = 
         events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r ->
           match r.Question1, r.Question2, r.Question3, r.Question4, r.Question5, r.Share1, r.Share2 with
@@ -315,7 +347,7 @@ let info =
       printfn "  events: %d" (events |> Seq.length)
       printfn "  time: %.2f" (time.TotalMinutes)
       printfn "  mode: %s" mode 
-      yield { mode=mode; time=time.TotalMinutes; answers=answers } ]
+      yield { university=university.Contains pid; mode=mode; time=time.TotalMinutes; answers=answers; completed = List.ofSeq completed } ]
 
 let parseNumber (n:string) =
   let i = n |> String.filter Char.IsNumber |> int64
@@ -365,6 +397,45 @@ let labels = "Share 2" :: (List.map (sprintf "Share 1 (%s)") modes)
 Chart.Scatter(data4) 
 |> Chart.WithLabels labels
 |> Chart.WithOptions(Options(colors=[|"#e0e0e0"; "blue";"red";"orange"|]))
+
+// GUESS: How good guesses people make?
+let getKeys a b c = 
+  [ 
+    if a then yield "Total exports to USA from China"
+    if a then yield "Total exports to China  from USA"
+    if a then yield "Tariffs on exports to USA from China"
+    if a then yield "Tariffs on exports to China from USA"
+    if b then yield "Machines (China exports)"
+    if b then yield "Metals (China exports)"
+    if b then yield "Miscellaneous (China exports)"
+    if b then yield "Plastics and Rubbers (China exports)"
+    if b then yield "Textiles (China exports)"
+    if c then yield "Chemical Products (US exports)"
+    if c then yield "Instruments (US exports)"
+    if c then yield "Machines (US exports)"
+    if c then yield "Transportation (US exports)"
+    if c then yield "Vegetable Products (US exports)"
+  ]
+
+let keys = getKeys true false false 
+
+let append m1 m2 = Map.toList m1 |> List.fold (fun m (k, v) -> Map.add k v m) m2
+let maps = 
+  info |> Seq.choose (fun v -> 
+    if List.isEmpty v.completed then None else
+      Some(v.university, List.reduce append v.completed) )
+let _, ans = maps |> Seq.head
+
+let rnd = System.Random()
+let clr () = "#" + String.concat "" [ for i in 1 .. 6 -> string "89abcdef".[rnd.Next("89abcdef".Length)] ]
+let colors = "black"::[for i in 0 .. 100 -> clr()]
+
+[ yield [ for k in keys -> k, fst ans.[k] ] 
+  for _, ans in maps -> [ for k in keys -> k, snd ans.[k] ] ] 
+|> Chart.Scatter
+|> Chart.WithOptions(Options(colors=Array.ofSeq colors))
+|> Chart.WithLabels ("Value"::[for i, (u, _) in Seq.indexed maps -> sprintf "Guess %d (%s)" i (if u then "U" else "X") ])
+
 
 
 
