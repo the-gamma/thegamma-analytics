@@ -246,44 +246,9 @@ dataviz
 |> Seq.distinct
 |> Seq.iter (printfn "%s")
 
-
-let pids = 
-  [ "596e1af7a09655000197d4bb"
-    "593ab35d51244c00013dcb69"
-    "58effc65c31d4d00015aa5b9"
-    "5b2465d4007d870001c7926a"
-    "5b0c8052444cef0001ca5b6b"
-    "5a6c0147d5d4cb0001d659e4"
-    "5b7341a7543d1c0001c80a26"
-    "55b8d0bffdf99b0f2859fe73"
-    "5b6cfa80a1fda800015fff52"
-    "5b2c68517297750001c79f1c"
-    "589f4b4b4d580c0001e0a155"
-    "5b54b7622680970001a9a7c9"
-    "56c90db0722239000cba5b8a"
-    "5a91fdd96219a30001d2e82c"
-    "59fd920f9b760100013a6412"
-    "580a6d0d5773b50001aab1d4"
-    "59ff47d47ecfc50001be0555"
-    "5b33ce040670a50001a3a265"
-    "5abc517c1667e40001d80d68"
-    "5af5bcf9b4dfd600018fc68e" ]
-
-let university = 
-  [ "5b2c68517297750001c79f1c"
-    "5b54b7622680970001a9a7c9"
-    "56c90db0722239000cba5b8a"
-    "54a70109fdf99b7cd759d21f"
-    "5a80bf6e2a842c0001fc9064"
-    "5a91fdd96219a30001d2e82c"
-    "59fd920f9b760100013a6412"
-    "580a6d0d5773b50001aab1d4"
-    "59ff47d47ecfc50001be0555"
-    "5b33ce040670a50001a3a265"
-    "5abc517c1667e40001d80d68"
-    "5af5bcf9b4dfd600018fc68e" ] |> set
-
-let pid = Seq.head pids
+let read file = System.IO.File.ReadAllLines(__SOURCE_DIRECTORY__ + "/data/" + file)
+let pids = read "pids.txt"
+let university = read "uni.txt" |> set
 
 type Answers =      
   { share1: int
@@ -300,10 +265,26 @@ type Info =
     completed: list<Map<string,(float * float)>>
     answers: Answers }
 
+// let pid = "558aab19fdf99b65685f0142"
+let printEventsFor pid = 
+  let info = 
+    dataviz |> Array.find (fun e -> 
+      e.Category = "user" && e.Event = "info" && 
+        e.Data.Record.IsSome && e.Data.Record.Value.Prolificid = Some pid)
+  let user = info.User
+  let events = 
+    dataviz |> Array.filter (fun e -> e.User = user)
+  for e in events do 
+    printfn "%s %s %s" e.Category e.Event (defaultArg e.Element "")
+
 let info = 
   [ for pid in pids do
     printfn "\n%s" pid
-    if pid <> "5b2465d4007d870001c7926a" && pid <> "5b7341a7543d1c0001c80a26" then
+    if pid <> "5b2465d4007d870001c7926a" && pid <> "5b7341a7543d1c0001c80a26" &&
+       pid <> "581fd4d3a099610001b702a2" && pid <> "5ac54531e1546900019c0487" &&
+       pid <> "5b27416a7297750001c7183d" && pid <> "5b245c2e007d870001c7915f" &&
+       pid <> "558aab19fdf99b65685f0142"
+        then
       let info = 
         dataviz |> Array.find (fun e -> 
           e.Category = "user" && e.Event = "info" && 
@@ -339,8 +320,8 @@ let info =
 
       let answers = 
         events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r ->
-          match r.Question1, r.Question2, r.Question3, r.Question4, r.Question5, r.Share1, r.Share2 with
-          | Some q1, Some q2a, Some q2b, Some q3, Some q4, Some s1, Some s2 ->
+          match defaultArg r.Question1 "", r.Question2, r.Question3, r.Question4, r.Question5, r.Share1, r.Share2 with
+          | q1, Some q2a, Some q2b, Some q3, Some q4, Some s1, Some s2 ->
               Some { share1=s1; share2=s2; q1=q1; q2=q2a+" "+q2b; q3=q3; q4=q4 }
           | _ -> None)
 
@@ -349,54 +330,72 @@ let info =
       printfn "  mode: %s" mode 
       yield { university=university.Contains pid; mode=mode; time=time.TotalMinutes; answers=answers; completed = List.ofSeq completed } ]
 
-let parseNumber (n:string) =
-  let i = n |> String.filter Char.IsNumber |> int64
-  if i < 10000L then float i else float (i / 1000000000000L)
+let mid = info |> Seq.map (fun u -> u.time) |> Seq.sort |> Seq.item 46
+let finfo = info |> Seq.filter (fun u -> u.time < mid)
+//let finfo = info |> Seq.filter (fun u -> u.university)
 
 // TIME: How long it took people to complete?
  
+let parseNumber (n:string) =
+  if n = "" then nan else
+  let i = n |> String.filter Char.IsNumber |> int64
+  if i < 10000L then float i else float (i / 1000000000000L)
+
 let modes = ["interactive";"image";"chart"]
 let data1 = 
   [ for mode in modes -> 
-    [ for i, v in Seq.indexed info do
+    [ for i, v in Seq.indexed finfo do
         if v.mode = mode then yield i, v.time ] ]
 Chart.Scatter(data1) |> Chart.WithLabels modes
+
+data1 |> Seq.map (Seq.averageBy snd) |> Seq.zip modes
 
 // Q1: Average guess of exports from US to China
 
 let data2 = 
   [ for mode in modes -> 
-    [ for i, v in Seq.indexed info do
+    [ for i, v in Seq.indexed finfo do
         let f = parseNumber v.answers.q1
-        if f < 700.0 then
+//        if f < 700.0 then
+//        if f <> 122.0 then
+//        if f < 120.0 || f > 123.0 then
+        if not (Double.IsNaN f) then
           if v.mode = mode then yield i, f ] ]
 Chart.Scatter(data2) |> Chart.WithLabels modes
 
 data2 |> Seq.map (Seq.averageBy snd) |> Seq.zip modes
 
+data2 |> Seq.map (fun data ->
+  let exact = data |> Seq.filter (fun v -> snd v = 122.0) |> Seq.length
+  float exact / float (Seq.length data) ) |> Seq.zip modes
+
 // Q2: How many people got this right?
+
+finfo |> Seq.map (fun v -> v.answers.q2) |> Seq.distinct |> Seq.iter (printfn "%s")
 
 let data3 = 
   [ for mode in modes -> 
-    [ for i, v in Seq.indexed info do
-        if v.mode = mode then yield i, v.answers.q2 = "machines transportation" ] ]
+    [ for i, v in Seq.indexed finfo do
+        if v.mode = mode then yield i, v.answers.q2= "machines transportation" || v.answers.q2 = "transportation machines" ] ]
 
 data3 |> Seq.map (fun d -> 
   let right = Seq.filter snd d |> Seq.length
-  float right / float (Seq.length d) ) |> Seq.zip modes
+  float right / float (Seq.length d), right, Seq.length d ) |> Seq.zip modes
 
 // SHARE: How likely are people to share?
 
 let data4 = 
-  [ [ for i, v in Seq.indexed info do
+  [ [ for i, v in Seq.indexed finfo do
       yield i, v.answers.share2 ] ] @
   [ for mode in modes ->
-    [ for i, v in Seq.indexed info do
+    [ for i, v in Seq.indexed finfo do
         if v.mode = mode then yield i, v.answers.share1 ] ] 
 let labels = "Share 2" :: (List.map (sprintf "Share 1 (%s)") modes)
 Chart.Scatter(data4) 
-|> Chart.WithLabels labels
 |> Chart.WithOptions(Options(colors=[|"#e0e0e0"; "blue";"red";"orange"|]))
+|> Chart.WithLabels labels
+
+data4 |> Seq.map (Seq.averageBy (snd >> float)) |> Seq.zip ("share2"::modes)
 
 // GUESS: How good guesses people make?
 let getKeys a b c = 
@@ -421,7 +420,7 @@ let keys = getKeys true false false
 
 let append m1 m2 = Map.toList m1 |> List.fold (fun m (k, v) -> Map.add k v m) m2
 let maps = 
-  info |> Seq.choose (fun v -> 
+  finfo |> Seq.choose (fun v -> 
     if List.isEmpty v.completed then None else
       Some(v.university, List.reduce append v.completed) )
 let _, ans = maps |> Seq.head
