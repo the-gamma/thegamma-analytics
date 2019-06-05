@@ -262,6 +262,7 @@ type Info =
   { university: bool
     mode: string 
     time: float 
+    backbutton: bool
     completed: list<Map<string,(float * float)>>
     answers: Answers }
 
@@ -297,6 +298,16 @@ let info =
         events |> Array.map (fun e -> e.Time)
       let time = (Array.max times) - (Array.min times)
 
+      let res = 
+        events 
+        |> Seq.filter (fun e -> e.Event = "loaded") 
+        |> Seq.choose (fun e -> e.Element) |> String.concat " "
+      let back = (res.Substring(res.IndexOf("step5")+5)).Contains("step3") 
+
+      let load3 = events |> Seq.pick (fun e -> if e.Element = Some "step3" && e.Event = "loaded" then Some e.Time else None) 
+      let load5 = events |> Seq.pick (fun e -> if e.Element = Some "step5" && e.Event = "loaded" then Some e.Time else None) 
+      //yield (load5 - load3).TotalMinutes 
+
       let mode = 
         if not (events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r -> r.Visual)) then "image"
         elif not (events |> Seq.choose (fun e -> e.Data.Record) |> Seq.pick (fun r -> r.Interactive)) then "chart"
@@ -328,10 +339,16 @@ let info =
       printfn "  events: %d" (events |> Seq.length)
       printfn "  time: %.2f" (time.TotalMinutes)
       printfn "  mode: %s" mode 
-      yield { university=university.Contains pid; mode=mode; time=time.TotalMinutes; answers=answers; completed = List.ofSeq completed } ]
+      yield { backbutton=back; university=university.Contains pid; mode=mode; time=time.TotalMinutes; answers=answers; completed = List.ofSeq completed } ]
+
+info |> Seq.filter (fun e -> e.backbutton) |> Seq.map (fun e -> e.answers.q1) |> List.ofSeq
 
 let mid = info |> Seq.map (fun u -> u.time) |> Seq.sort |> Seq.item 46
-let finfo = info |> Seq.filter (fun u -> u.time < mid)
+let finfo = info
+
+finfo |> Seq.length
+finfo |> Seq.countBy (fun u -> u.mode)
+//let finfo = info |> Seq.filter (fun u -> u.time < mid)
 //let finfo = info |> Seq.filter (fun u -> u.university)
 
 // TIME: How long it took people to complete?
@@ -361,6 +378,11 @@ let data2 =
 //        if f < 120.0 || f > 123.0 then
         if not (Double.IsNaN f) then
           if v.mode = mode then yield i, f ] ]
+
+[ for v in finfo -> v.mode, 122.0 = parseNumber v.answers.q1 ]
+|> Seq.countBy id
+|> Seq.toList
+ 
 Chart.Scatter(data2) |> Chart.WithLabels modes
 
 data2 |> Seq.map (Seq.averageBy snd) |> Seq.zip modes
@@ -435,6 +457,79 @@ let colors = "black"::[for i in 0 .. 100 -> clr()]
 |> Chart.WithOptions(Options(colors=Array.ofSeq colors))
 |> Chart.WithLabels ("Value"::[for i, (u, _) in Seq.indexed maps -> sprintf "Guess %d (%s)" i (if u then "U" else "X") ])
 
+// Q1: Does university matter
+let uni = [true;false]
+let data5 = 
+  [ for u in uni -> 
+    [ for i, v in Seq.indexed finfo do
+        let f = parseNumber v.answers.q1
+        if not (Double.IsNaN f) then
+          if v.university = u then yield i, f ] ]
+
+Chart.Scatter(data5) |> Chart.WithLabels (List.map string uni)
+
+// Q2: Does university matter
+let data6 = 
+  finfo
+  |> Seq.countBy (fun v -> v.mode, v.university, v.answers.q2= "machines transportation" || v.answers.q2 = "transportation machines" )
+  |> Seq.map (fun ((m, u, c), n) -> (if u then "Uni" else "None") + (if c then "Correct" else "Wrong"), (m, n))
+  |> Seq.groupBy fst 
+
+data6 
+|> Seq.map (fun (_, v) -> Seq.map snd v)
+|> Chart.Column
+|> Chart.WithOptions(Options(vAxis=Axis(minValue=0)))
+|> Chart.WithLabels (Seq.map fst data6)
 
 
+// Export likes
+type Csv1 = CsvProvider<"Group (string), Value (int), Education (string)">
 
+let exp1 = 
+  [ for i, v in Seq.indexed finfo ->
+    Csv1.Row(v.mode, v.answers.share1, if v.university then "university" else "none") ] //@
+
+System.IO.File.Delete("C:/temp/exp.csv")
+Csv1.GetSample().Append(exp1).Save("C:/temp/exp.csv")
+
+let exp1b = 
+  [ for v in finfo ->
+    Csv1.Row("tariffs", v.answers.share1, if v.university then "university" else "none") ] @
+  [ for v in finfo ->
+    Csv1.Row("movies", v.answers.share2, if v.university then "university" else "none") ] 
+
+System.IO.File.Delete("C:/temp/exp1b.csv")
+Csv1.GetSample().Append(exp1b).Save("C:/temp/exp1b.csv")
+
+// Export guesses
+type Csv2 = CsvProvider<"Group (string), Guess (string), Education (string)">
+
+let exp2 =
+  [ for v in finfo ->
+    let s =
+      (if v.answers.q2.Contains("machines") then "Mach" else "") +
+      (if v.answers.q2.Contains("transportation") then "Trans" else "") 
+    let s = if s = "" then "Nothing" else s
+    Csv2.Row(v.mode, s, if v.university then "University" else "None") ] 
+
+System.IO.File.Delete("C:/temp/exp2.csv")
+Csv2.GetSample().Append(exp2).Save("C:/temp/exp2.csv")
+
+// Export likes of Q2
+type Csv3 = CsvProvider<"Group (string), Value (int)">
+
+let exp3 = 
+  [ for i, v in Seq.indexed finfo ->
+    Csv3.Row("static", v.answers.share2) ]
+
+Csv3.GetSample().Append(exp3).Save("C:/temp/exp3.csv")
+
+// 
+let exp4 = 
+  [ for v in finfo do
+      let f = parseNumber v.answers.q1
+      if not (Double.IsNaN f) then 
+        yield Csv1.Row(v.mode, int f, if v.university then "University" else "None") ] 
+
+System.IO.File.Delete("C:/temp/exp4.csv")
+Csv1.GetSample().Append(exp4).Save("C:/temp/exp4.csv")
