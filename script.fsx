@@ -46,6 +46,7 @@ let downloadAll key =
 downloadAll "olympics"
 downloadAll "turing"
 downloadAll "datavizstudy"
+downloadAll "histogram"
 
 // ------------------------------------------------------------------------------------------------
 // Logs analaysis for Olympics
@@ -533,3 +534,30 @@ let exp4 =
 
 System.IO.File.Delete("C:/temp/exp4.csv")
 Csv1.GetSample().Append(exp4).Save("C:/temp/exp4.csv")
+
+
+// ------------------------------------------------------------------------------------------------
+// Logs analaysis for Histogram
+// ------------------------------------------------------------------------------------------------
+
+
+open XPlot.GoogleCharts
+
+let [<Literal>] histogramSample = __SOURCE_DIRECTORY__ + "/samples/histogram.json"
+let histogramRoot = __SOURCE_DIRECTORY__ + "/logs/histogram"
+type Histogram = JsonProvider<histogramSample>
+
+let histogramJson =
+  [ for f in IO.Directory.GetFiles(histogramRoot) do
+      for l in IO.File.ReadAllLines(f) do 
+        if not (String.IsNullOrWhiteSpace l) && l <> "testing..." then yield l ] |> String.concat ","
+
+let histogram = Histogram.Parse("[" + histogramJson + "]")
+
+histogram 
+|> Seq.countBy (fun e -> e.Event)
+
+histogram 
+|> Seq.filter (fun e -> e.Event = "event")
+|> Seq.map (fun e -> e.Data.Record.Value.Kind)
+|> Seq.iter (printfn "%A")
