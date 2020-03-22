@@ -21,7 +21,7 @@ let getContainer key =
   client.GetContainerReference(key)
 
 // List all log files
-let logs = getContainer "turing"
+let logs = getContainer "turingstudy"
 for log in logs.GetDirectoryReference("").ListBlobs() do
   printfn " - %s" (Seq.last log.Uri.Segments) 
 
@@ -47,6 +47,7 @@ downloadAll "olympics"
 downloadAll "turing"
 downloadAll "datavizstudy"
 downloadAll "histogram"
+downloadAll "turingstudy"
 
 // ------------------------------------------------------------------------------------------------
 // Logs analaysis for Olympics
@@ -561,3 +562,110 @@ histogram
 |> Seq.filter (fun e -> e.Event = "event")
 |> Seq.map (fun e -> e.Data.Record.Value.Kind)
 |> Seq.iter (printfn "%A")
+
+// ------------------------------------------------------------------------------------------------
+// Logs analaysis for Turing study
+// ------------------------------------------------------------------------------------------------
+
+open XPlot.GoogleCharts
+
+let [<Literal>] turingStudySample = __SOURCE_DIRECTORY__ + "/samples/turingstudy.json"
+let turingStudyRoot = __SOURCE_DIRECTORY__ + "/logs/turingstudy"
+type TuringStudy = JsonProvider<turingStudySample>
+
+let turingStudyJson =
+  [ for f in IO.Directory.GetFiles(turingStudyRoot) do
+      yield! IO.File.ReadAllLines(f) ] |> String.concat ","
+
+let turingStudy = TuringStudy.Parse("[" + turingStudyJson + "]")
+
+turingStudy
+|> Seq.countBy (fun e -> string e.User)
+|> List.ofSeq
+
+turingStudy
+|> Seq.choose (fun e -> match e.User, e.Data with Some u, Some d -> Some(u, d, e.Time) | _ -> None)
+|> Seq.choose (fun (u, d, t) -> match d.Name, d.Email with Some n, Some e -> Some(u, n, e, t) | _ -> None)
+|> Seq.iter (fun (u, n, e, t) -> printfn "%s (%s) %O\n%A\n" n e t u)
+
+turingStudy
+|> Seq.choose (fun e -> match e.User, e.Data with Some u, Some d -> Some(u, d, e.Time) | _ -> None)
+|> Seq.choose (fun (u, d, t) -> match d.Name, d.Email with Some n, Some e -> Some(u, n, e, t) | _ -> None)
+|> Seq.iter (fun (u, n, e, t) -> printfn "%s" e)
+
+turingStudy
+|> Seq.choose (fun e -> match e.User, e.Data with Some u, Some d -> Some(u, d, e.Time) | _ -> None)
+|> Seq.choose (fun (u, d, t) -> match d.Name, d.Email with Some n, Some e -> Some(u, n, e, t) | _ -> None)
+|> Seq.map (fun (u, n, e, t) -> 
+  let times = turingStudy |> Seq.filter (fun e -> e.User = Some u) |> Seq.map (fun e -> e.Time) |> Seq.sort
+  let times' = times |> Seq.take (Seq.length times - 10)
+  n, Seq.min(times).ToString(), Seq.max(times).ToString(), (Seq.max(times) - Seq.min(times)).TotalMinutes, (Seq.max(times') - Seq.min(times')).TotalMinutes )
+|> Seq.iter (fun (n, _, _, t, t') -> printfn "%s\n   %f\t%f" n t t')
+
+turingStudy
+|> Seq.choose (fun e -> match e.User, e.Data with Some u, Some d -> Some(u, d, e.Time) | _ -> None)
+|> Seq.choose (fun (u, d, t) -> match d.Name, d.Email with Some n, Some e -> Some(u, n, e, t) | _ -> None)
+|> Seq.map (fun (u, n, e, t) -> 
+  let times = turingStudy |> Seq.filter (fun e -> e.User = Some u) |> Seq.map (fun e -> e.Time) |> Seq.sort
+  let times' = times |> Seq.skip 10 |> Seq.take (Seq.length times - 10)
+  n, u, Seq.min(times).ToString(), Seq.max(times).ToString(), (Seq.max(times) - Seq.min(times)).TotalMinutes, (Seq.max(times') - Seq.min(times')).TotalMinutes )
+|> Seq.filter (fun (n, _, _, _, t, t') -> n.Contains("Petricek") |> not)
+//|> Seq.iter (fun (n, i, _, _, t, t') -> printfn "%s (%O)\n   %f\t%f" n i t t')
+|> Seq.averageBy (fun (n, _, _, _, t, t') -> t')
+
+
+turingStudy
+|> Seq.filter (fun e -> string e.User = "Some(5e80a28b-96f9-4de7-b321-896c8c48e05a)")
+|> Seq.map (fun e -> e.Category, e.Event, e.Data)
+|> Seq.iter (printfn "%A")
+
+open System.Windows.Forms
+
+let showCodes (codes:seq<DateTime * string>) = 
+  let codes = Array.ofSeq codes
+  let form = new Form(TopMost=true,Visible=true)
+  let pan = new Panel(Height=30)
+  let btn = new Button(Text="|>")
+  btn.Dock <- DockStyle.Left
+  let tb = new TrackBar()
+  tb.Dock <- DockStyle.Fill
+  pan.Dock <- DockStyle.Top
+  pan.Controls.Add(tb)
+  pan.Controls.Add(btn)
+
+  let lbl = new Label(Text="...")
+  lbl.Font <- new Drawing.Font("Monaco", 10.0f)
+  lbl.Dock <- DockStyle.Fill
+  form.Controls.Add(lbl)
+  form.Controls.Add(pan)
+
+  tb.Minimum <- 0
+  tb.Maximum <- (Seq.length codes - 1)
+
+  let play = async { 
+    for i in tb.Value .. tb.Maximum do
+      lbl.Text <- snd codes.[i]
+      tb.Value <- i
+      form.Text <- (fst codes.[i]).ToString()
+      do! Async.Sleep(60) }
+  
+  let mutable cts = new System.Threading.CancellationTokenSource()
+  tb.Click.Add(fun _ -> 
+    cts.Cancel() )
+  tb.ValueChanged.Add(fun _ -> 
+    lbl.Text <- snd codes.[tb.Value]
+    form.Text <- (fst codes.[tb.Value]).ToString() )
+  btn.Click.Add(fun _ -> 
+    if btn.Text = "|>" then 
+      cts <- new System.Threading.CancellationTokenSource()
+      Async.StartImmediate(play, cts.Token)
+      btn.Text <- "||"
+    else      
+      cts.Cancel() 
+      btn.Text <- "|>" )
+
+turingStudy
+|> Seq.filter (fun e -> string e.User = "Some(a8bdfb27-d710-4cae-9f13-51cadcba432f)")
+|> Seq.choose (fun e -> match e.Data with Some d -> Some(e.Time, d) | _ -> None)
+|> Seq.choose (fun (t, d) -> match d.Source with Some s -> Some(t, s) | _ -> None)
+|> showCodes
